@@ -1,0 +1,656 @@
+User Name: John	ID: 00030
+Tuesday, October 04, 2016 5:25:36 PM	normal	select English as the user's language
+Tuesday, October 04, 2016 5:25:37 PM	normal	type "1" in the PIN number
+Tuesday, October 04, 2016 5:25:38 PM	normal	type "2" in the PIN number
+Tuesday, October 04, 2016 5:25:38 PM	normal	type "3" in the PIN number
+Tuesday, October 04, 2016 5:25:39 PM	normal	type "4" in the PIN number
+Tuesday, October 04, 2016 5:25:40 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:25:40 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 04, 2016 5:25:41 PM	normal	click Account Info tab
+Tuesday, October 04, 2016 5:25:42 PM	normal	show the summary of the user's accounts
+Tuesday, October 04, 2016 5:25:43 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:25:52 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:25:54 PM	normal	select English as the user's language
+Tuesday, October 04, 2016 5:25:54 PM	normal	type "1" in the PIN number
+Tuesday, October 04, 2016 5:25:55 PM	normal	type "2" in the PIN number
+Tuesday, October 04, 2016 5:25:55 PM	normal	type "3" in the PIN number
+Tuesday, October 04, 2016 5:25:55 PM	normal	type "4" in the PIN number
+Tuesday, October 04, 2016 5:25:56 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:25:56 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 04, 2016 5:25:58 PM	normal	click Transfer tab
+Tuesday, October 04, 2016 5:25:59 PM	normal	transfer between the user's accounts
+Tuesday, October 04, 2016 5:26:05 PM	normal	successfully transfer $50from the saving acount to the checking account
+Tuesday, October 04, 2016 5:26:10 PM	normal	select English as the user's language
+Tuesday, October 04, 2016 5:26:11 PM	normal	type "1" in the PIN number
+Tuesday, October 04, 2016 5:26:11 PM	normal	type "2" in the PIN number
+Tuesday, October 04, 2016 5:26:12 PM	normal	type "3" in the PIN number
+Tuesday, October 04, 2016 5:26:12 PM	normal	type "4" in the PIN number
+Tuesday, October 04, 2016 5:26:13 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:26:13 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 04, 2016 5:26:14 PM	normal	click Cash tab
+Tuesday, October 04, 2016 5:26:15 PM	normal	select the checking account to withdrawl cash
+Tuesday, October 04, 2016 5:26:16 PM	normal	type "1" in the withdrawl amount setting
+Tuesday, October 04, 2016 5:26:17 PM	normal	type "0" in withdrawl amount setting
+Tuesday, October 04, 2016 5:26:17 PM	normal	type "0" in withdrawl amount setting
+Tuesday, October 04, 2016 5:26:17 PM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Tuesday, October 04, 2016 5:55:54 PM	normal	select English as the user's language
+Tuesday, October 04, 2016 5:55:55 PM	normal	type "1" in the PIN number
+Tuesday, October 04, 2016 5:55:55 PM	normal	type "2" in the PIN number
+Tuesday, October 04, 2016 5:55:55 PM	normal	type "3" in the PIN number
+Tuesday, October 04, 2016 5:55:56 PM	normal	type "4" in the PIN number
+Tuesday, October 04, 2016 5:55:56 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:55:56 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 04, 2016 5:56:06 PM	normal	click Account Info tab
+Tuesday, October 04, 2016 5:56:06 PM	normal	show the summary of the user's accounts
+Tuesday, October 04, 2016 5:56:07 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:56:16 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:56:18 PM	normal	select English as the user's language
+Tuesday, October 04, 2016 5:56:19 PM	normal	type "1" in the PIN number
+Tuesday, October 04, 2016 5:56:19 PM	normal	type "2" in the PIN number
+Tuesday, October 04, 2016 5:56:20 PM	normal	type "3" in the PIN number
+Tuesday, October 04, 2016 5:56:20 PM	normal	type "4" in the PIN number
+Tuesday, October 04, 2016 5:56:21 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:56:21 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 04, 2016 5:56:24 PM	normal	click Transfer tab
+Tuesday, October 04, 2016 5:56:25 PM	normal	transfer between the user's accounts
+Tuesday, October 04, 2016 5:56:32 PM	normal	successfully transfer $50from the saving acount to the checking account
+Tuesday, October 04, 2016 5:56:38 PM	normal	select English as the user's language
+Tuesday, October 04, 2016 5:56:39 PM	normal	type "1" in the PIN number
+Tuesday, October 04, 2016 5:56:39 PM	normal	type "2" in the PIN number
+Tuesday, October 04, 2016 5:56:40 PM	normal	type "3" in the PIN number
+Tuesday, October 04, 2016 5:56:40 PM	normal	type "4" in the PIN number
+Tuesday, October 04, 2016 5:56:41 PM	normal	clear PIN number
+Tuesday, October 04, 2016 5:56:41 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 04, 2016 5:56:43 PM	normal	click Cash tab
+Tuesday, October 04, 2016 5:56:44 PM	normal	select the checking account to withdrawl cash
+Tuesday, October 04, 2016 5:56:45 PM	normal	type "2" in withdrawl amount setting
+Tuesday, October 04, 2016 5:56:45 PM	normal	type "0" in withdrawl amount setting
+Tuesday, October 04, 2016 5:56:53 PM	normal	clear the withdrawl amount
+Tuesday, October 04, 2016 5:56:53 PM	normal	clear the withdrawl amount
+Tuesday, October 04, 2016 5:56:54 PM	normal	type "2" in withdrawl amount setting
+Tuesday, October 04, 2016 5:56:54 PM	normal	type "0" in withdrawl amount setting
+
+User Name: John	ID: 00030
+Wednesday, October 05, 2016 10:14:11 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:14:12 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:14:12 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:14:12 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:14:13 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:14:13 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:14:13 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:14:16 AM	normal	click Account Info tab
+Wednesday, October 05, 2016 10:14:17 AM	normal	show the summary of the user's accounts
+Wednesday, October 05, 2016 10:14:18 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:14:27 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:14:28 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:14:29 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:14:29 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:14:30 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:14:30 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:14:30 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:14:30 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:14:33 AM	normal	click Transfer tab
+Wednesday, October 05, 2016 10:14:34 AM	normal	transfer between the user's accounts
+Wednesday, October 05, 2016 10:14:39 AM	normal	successfully transfer $50from the saving acount to the checking account
+Wednesday, October 05, 2016 10:14:45 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:14:47 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:14:47 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:14:48 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:14:48 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:14:49 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:14:49 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:14:50 AM	normal	click Cash tab
+
+User Name: John	ID: 00030
+Wednesday, October 05, 2016 10:16:21 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:16:22 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:16:22 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:16:23 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:16:24 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:16:24 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:16:24 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:16:39 AM	normal	click Account Info tab
+Wednesday, October 05, 2016 10:16:40 AM	normal	show the summary of the user's accounts
+Wednesday, October 05, 2016 10:16:40 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:16:50 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:16:54 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:16:55 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:16:55 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:16:55 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:16:56 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:16:56 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:16:56 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:17:02 AM	normal	click Transfer tab
+Wednesday, October 05, 2016 10:17:03 AM	normal	transfer between the user's accounts
+Wednesday, October 05, 2016 10:17:09 AM	normal	successfully transfer $50from the saving acount to the checking account
+Wednesday, October 05, 2016 10:17:15 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:17:15 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:17:16 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:17:16 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:17:16 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:17:17 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:17:17 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:17:18 AM	normal	click Cash tab
+Wednesday, October 05, 2016 10:17:19 AM	normal	select the checking account to withdrawl cash
+Wednesday, October 05, 2016 10:17:23 AM	normal	type "1" in the withdrawl amount setting
+Wednesday, October 05, 2016 10:17:24 AM	normal	type "0" in withdrawl amount setting
+Wednesday, October 05, 2016 10:17:24 AM	normal	type "0" in withdrawl amount setting
+Wednesday, October 05, 2016 10:17:25 AM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Wednesday, October 05, 2016 10:17:46 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:17:47 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:17:48 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:17:48 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:17:48 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:17:49 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:17:49 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:17:50 AM	normal	click Account Info tab
+Wednesday, October 05, 2016 10:17:51 AM	normal	show the summary of the user's accounts
+Wednesday, October 05, 2016 10:17:52 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:18:01 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:18:04 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:18:04 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:18:05 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:18:05 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:18:05 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:18:06 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:18:06 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:18:09 AM	normal	click Transfer tab
+Wednesday, October 05, 2016 10:18:09 AM	normal	transfer between the user's accounts
+Wednesday, October 05, 2016 10:18:15 AM	normal	successfully transfer $50from the saving acount to the checking account
+Wednesday, October 05, 2016 10:18:23 AM	normal	select English as the user's language
+Wednesday, October 05, 2016 10:18:24 AM	normal	type "1" in the PIN number
+Wednesday, October 05, 2016 10:18:25 AM	normal	type "2" in the PIN number
+Wednesday, October 05, 2016 10:18:25 AM	normal	type "3" in the PIN number
+Wednesday, October 05, 2016 10:18:25 AM	normal	type "4" in the PIN number
+Wednesday, October 05, 2016 10:18:26 AM	normal	clear PIN number
+Wednesday, October 05, 2016 10:18:26 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 05, 2016 10:18:28 AM	normal	click Cash tab
+
+User Name: John	ID: 00030
+2016年10月6日 22:33:36	normal	select English as the user's language
+2016年10月6日 22:33:37	normal	type "1" in the PIN number
+2016年10月6日 22:33:37	normal	type "2" in the PIN number
+2016年10月6日 22:33:38	normal	type "3" in the PIN number
+2016年10月6日 22:33:38	normal	type "4" in the PIN number
+2016年10月6日 22:33:39	normal	clear PIN number
+2016年10月6日 22:33:39	normal	enter the PIN number and successfully sign in
+2016年10月6日 22:33:40	normal	click Account Info tab
+2016年10月6日 22:33:41	normal	show the summary of the user's accounts
+2016年10月6日 22:33:42	normal	clear PIN number
+2016年10月6日 22:33:51	normal	clear PIN number
+2016年10月6日 22:33:52	normal	select English as the user's language
+2016年10月6日 22:33:53	normal	type "1" in the PIN number
+2016年10月6日 22:33:53	normal	type "2" in the PIN number
+2016年10月6日 22:33:54	normal	type "3" in the PIN number
+2016年10月6日 22:33:54	normal	type "4" in the PIN number
+2016年10月6日 22:33:55	normal	clear PIN number
+2016年10月6日 22:33:55	normal	enter the PIN number and successfully sign in
+2016年10月6日 22:33:57	normal	click Transfer tab
+2016年10月6日 22:33:58	normal	transfer between the user's accounts
+2016年10月6日 22:34:04	normal	successfully transfer $50from the saving acount to the checking account
+2016年10月6日 22:34:11	normal	select English as the user's language
+2016年10月6日 22:34:12	normal	type "1" in the PIN number
+2016年10月6日 22:34:12	normal	type "2" in the PIN number
+2016年10月6日 22:34:12	normal	type "3" in the PIN number
+2016年10月6日 22:34:13	normal	type "4" in the PIN number
+2016年10月6日 22:34:13	normal	clear PIN number
+2016年10月6日 22:34:13	normal	enter the PIN number and successfully sign in
+2016年10月6日 22:34:15	normal	click Cash tab
+2016年10月6日 22:34:16	normal	select the checking account to withdrawl cash
+2016年10月6日 22:34:17	normal	type "1" in the withdrawl amount setting
+2016年10月6日 22:34:18	normal	type "0" in withdrawl amount setting
+2016年10月6日 22:34:18	normal	type "0" in withdrawl amount setting
+2016年10月6日 22:34:19	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Monday, October 10, 2016 10:58:42 AM	normal	select English as the user's language
+Monday, October 10, 2016 10:58:43 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 10:58:44 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 10:58:44 AM	normal	type "3" in the PIN number
+Monday, October 10, 2016 10:58:45 AM	normal	type "4" in the PIN number
+Monday, October 10, 2016 10:58:45 AM	normal	clear PIN number
+Monday, October 10, 2016 10:58:45 AM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 10:58:47 AM	normal	click Account Info tab
+Monday, October 10, 2016 10:58:48 AM	normal	show the summary of the user's accounts
+Monday, October 10, 2016 10:58:48 AM	normal	clear PIN number
+Monday, October 10, 2016 10:58:57 AM	normal	clear PIN number
+Monday, October 10, 2016 10:59:00 AM	normal	select English as the user's language
+Monday, October 10, 2016 10:59:01 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 10:59:01 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 10:59:01 AM	normal	type "3" in the PIN number
+Monday, October 10, 2016 10:59:02 AM	normal	type "4" in the PIN number
+Monday, October 10, 2016 10:59:03 AM	normal	clear PIN number
+Monday, October 10, 2016 10:59:03 AM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 10:59:05 AM	normal	click Transfer tab
+Monday, October 10, 2016 10:59:05 AM	normal	transfer between the user's accounts
+Monday, October 10, 2016 10:59:14 AM	normal	successfully transfer $50from the saving acount to the checking account
+Monday, October 10, 2016 10:59:21 AM	normal	select English as the user's language
+Monday, October 10, 2016 10:59:23 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 10:59:24 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 10:59:24 AM	normal	type "5" in the PIN number
+Monday, October 10, 2016 10:59:24 AM	normal	type "8" in the PIN number
+Monday, October 10, 2016 10:59:25 AM	normal	clear PIN number
+Monday, October 10, 2016 10:59:28 AM	error	type a wrong PIN number 1 time
+Monday, October 10, 2016 10:59:29 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 10:59:29 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 10:59:29 AM	normal	type "3" in the PIN number
+Monday, October 10, 2016 10:59:30 AM	normal	type "4" in the PIN number
+Monday, October 10, 2016 10:59:30 AM	normal	clear PIN number
+Monday, October 10, 2016 10:59:30 AM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 10:59:40 AM	normal	click Cash tab
+Monday, October 10, 2016 10:59:41 AM	normal	select the checking account to withdrawl cash
+Monday, October 10, 2016 10:59:43 AM	normal	type "1" in the withdrawl amount setting
+Monday, October 10, 2016 10:59:43 AM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 10:59:43 AM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 10:59:44 AM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Monday, October 10, 2016 11:27:02 AM	normal	select English as the user's language
+Monday, October 10, 2016 11:27:03 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 11:27:03 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 11:27:04 AM	normal	type "3" in the PIN number
+Monday, October 10, 2016 11:27:04 AM	normal	type "4" in the PIN number
+Monday, October 10, 2016 11:27:04 AM	normal	clear PIN number
+Monday, October 10, 2016 11:27:04 AM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 11:27:07 AM	normal	click Account Info tab
+Monday, October 10, 2016 11:27:08 AM	normal	show the summary of the user's accounts
+Monday, October 10, 2016 11:27:08 AM	normal	clear PIN number
+Monday, October 10, 2016 11:27:17 AM	normal	clear PIN number
+Monday, October 10, 2016 11:27:19 AM	normal	select English as the user's language
+Monday, October 10, 2016 11:27:20 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 11:27:20 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 11:27:20 AM	normal	type "3" in the PIN number
+Monday, October 10, 2016 11:27:21 AM	normal	type "4" in the PIN number
+Monday, October 10, 2016 11:27:21 AM	normal	clear PIN number
+Monday, October 10, 2016 11:27:21 AM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 11:27:26 AM	normal	click Transfer tab
+Monday, October 10, 2016 11:27:27 AM	normal	transfer between the user's accounts
+Monday, October 10, 2016 11:27:33 AM	normal	successfully transfer $50from the saving acount to the checking account
+Monday, October 10, 2016 11:27:38 AM	normal	select English as the user's language
+Monday, October 10, 2016 11:27:39 AM	normal	type "1" in the PIN number
+Monday, October 10, 2016 11:27:40 AM	normal	type "2" in the PIN number
+Monday, October 10, 2016 11:27:40 AM	normal	type "3" in the PIN number
+Monday, October 10, 2016 11:27:40 AM	normal	type "4" in the PIN number
+Monday, October 10, 2016 11:27:41 AM	normal	clear PIN number
+Monday, October 10, 2016 11:27:41 AM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 11:27:42 AM	normal	click Cash tab
+Monday, October 10, 2016 11:27:43 AM	normal	select the checking account to withdrawl cash
+Monday, October 10, 2016 11:27:44 AM	normal	type "1" in the withdrawl amount setting
+Monday, October 10, 2016 11:27:44 AM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 11:27:45 AM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 11:27:45 AM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Monday, October 10, 2016 3:09:38 PM	normal	select English as the user's language
+Monday, October 10, 2016 3:09:39 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 3:09:39 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 3:09:39 PM	normal	type "3" in the PIN number
+Monday, October 10, 2016 3:09:40 PM	normal	type "4" in the PIN number
+Monday, October 10, 2016 3:09:40 PM	normal	clear PIN number
+Monday, October 10, 2016 3:09:40 PM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 3:09:43 PM	normal	click Account Info tab
+Monday, October 10, 2016 3:09:45 PM	normal	show the summary of the user's accounts
+Monday, October 10, 2016 3:09:45 PM	normal	clear PIN number
+Monday, October 10, 2016 3:09:54 PM	normal	clear PIN number
+Monday, October 10, 2016 3:09:56 PM	normal	select English as the user's language
+Monday, October 10, 2016 3:09:57 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 3:09:58 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 3:09:58 PM	normal	type "3" in the PIN number
+Monday, October 10, 2016 3:09:59 PM	normal	type "4" in the PIN number
+Monday, October 10, 2016 3:09:59 PM	normal	clear PIN number
+Monday, October 10, 2016 3:09:59 PM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 3:10:01 PM	normal	click Transfer tab
+Monday, October 10, 2016 3:10:03 PM	normal	transfer to another account
+Monday, October 10, 2016 3:10:05 PM	normal	transfer between the user's accounts
+Monday, October 10, 2016 3:10:13 PM	normal	successfully transfer $50from the saving acount to the checking account
+Monday, October 10, 2016 3:10:19 PM	normal	select English as the user's language
+Monday, October 10, 2016 3:10:20 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 3:10:21 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 3:10:21 PM	normal	type "5" in the PIN number
+Monday, October 10, 2016 3:10:22 PM	normal	type "8" in the PIN number
+Monday, October 10, 2016 3:10:22 PM	normal	clear PIN number
+Monday, October 10, 2016 3:10:25 PM	error	type a wrong PIN number 1 time
+Monday, October 10, 2016 3:10:26 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 3:10:26 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 3:10:27 PM	normal	type "3" in the PIN number
+Monday, October 10, 2016 3:10:27 PM	normal	type "4" in the PIN number
+Monday, October 10, 2016 3:10:27 PM	normal	clear PIN number
+Monday, October 10, 2016 3:10:27 PM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 3:10:30 PM	normal	click Cash tab
+Monday, October 10, 2016 3:10:31 PM	normal	select the checking account to withdrawl cash
+Monday, October 10, 2016 3:10:34 PM	normal	type "1" in the withdrawl amount setting
+Monday, October 10, 2016 3:10:35 PM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 3:10:35 PM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 3:10:36 PM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Monday, October 10, 2016 5:17:47 PM	normal	select English as the user's language
+Monday, October 10, 2016 5:17:48 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 5:17:48 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 5:17:48 PM	normal	type "3" in the PIN number
+Monday, October 10, 2016 5:17:49 PM	normal	type "4" in the PIN number
+Monday, October 10, 2016 5:17:49 PM	normal	clear PIN number
+Monday, October 10, 2016 5:17:49 PM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 5:17:51 PM	normal	click Account Info tab
+Monday, October 10, 2016 5:17:51 PM	normal	show the summary of the user's accounts
+Monday, October 10, 2016 5:17:52 PM	normal	clear PIN number
+Monday, October 10, 2016 5:18:01 PM	normal	clear PIN number
+Monday, October 10, 2016 5:18:02 PM	normal	select English as the user's language
+Monday, October 10, 2016 5:18:03 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 5:18:04 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 5:18:05 PM	normal	type "3" in the PIN number
+Monday, October 10, 2016 5:18:05 PM	normal	type "4" in the PIN number
+Monday, October 10, 2016 5:18:06 PM	normal	clear PIN number
+Monday, October 10, 2016 5:18:06 PM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 5:18:09 PM	normal	click Transfer tab
+Monday, October 10, 2016 5:18:10 PM	normal	transfer between the user's accounts
+Monday, October 10, 2016 5:18:16 PM	normal	successfully transfer $50from the saving acount to the checking account
+Monday, October 10, 2016 5:18:22 PM	normal	select English as the user's language
+Monday, October 10, 2016 5:18:23 PM	normal	type "1" in the PIN number
+Monday, October 10, 2016 5:18:23 PM	normal	type "2" in the PIN number
+Monday, October 10, 2016 5:18:23 PM	normal	type "3" in the PIN number
+Monday, October 10, 2016 5:18:24 PM	normal	type "4" in the PIN number
+Monday, October 10, 2016 5:18:24 PM	normal	clear PIN number
+Monday, October 10, 2016 5:18:24 PM	normal	enter the PIN number and successfully sign in
+Monday, October 10, 2016 5:18:25 PM	normal	click Cash tab
+Monday, October 10, 2016 5:18:26 PM	normal	select the checking account to withdrawl cash
+Monday, October 10, 2016 5:18:27 PM	normal	type "1" in the withdrawl amount setting
+Monday, October 10, 2016 5:18:28 PM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 5:18:28 PM	normal	type "0" in withdrawl amount setting
+Monday, October 10, 2016 5:18:29 PM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+
+User Name: John	ID: 00030
+
+User Name: John	ID: 00030
+
+User Name: John	ID: 00030
+
+User Name: John	ID: 00030
+
+User Name: John	ID: 00030
+Wednesday, October 12, 2016 2:59:47 PM	normal	select English as the user's language
+Wednesday, October 12, 2016 2:59:48 PM	normal	type "1" in the PIN number
+Wednesday, October 12, 2016 2:59:49 PM	normal	type "2" in the PIN number
+Wednesday, October 12, 2016 2:59:49 PM	normal	type "3" in the PIN number
+Wednesday, October 12, 2016 2:59:50 PM	normal	type "4" in the PIN number
+Wednesday, October 12, 2016 2:59:50 PM	normal	clear PIN number
+Wednesday, October 12, 2016 2:59:50 PM	normal	enter the PIN number and successfully sign in
+Wednesday, October 12, 2016 2:59:53 PM	normal	click Account Info tab
+Wednesday, October 12, 2016 2:59:53 PM	normal	show the summary of the user's accounts
+Wednesday, October 12, 2016 2:59:54 PM	normal	clear PIN number
+Wednesday, October 12, 2016 3:00:04 PM	normal	clear PIN number
+Wednesday, October 12, 2016 3:00:06 PM	normal	select English as the user's language
+Wednesday, October 12, 2016 3:00:06 PM	normal	type "1" in the PIN number
+Wednesday, October 12, 2016 3:00:07 PM	normal	type "2" in the PIN number
+Wednesday, October 12, 2016 3:00:07 PM	normal	type "3" in the PIN number
+Wednesday, October 12, 2016 3:00:08 PM	normal	type "4" in the PIN number
+Wednesday, October 12, 2016 3:00:09 PM	normal	clear PIN number
+Wednesday, October 12, 2016 3:00:09 PM	normal	enter the PIN number and successfully sign in
+Wednesday, October 12, 2016 3:00:10 PM	normal	click Transfer tab
+Wednesday, October 12, 2016 3:00:11 PM	normal	transfer between the user's accounts
+Wednesday, October 12, 2016 3:00:17 PM	normal	successfully transfer $50from the saving acount to the checking account
+Wednesday, October 12, 2016 3:00:23 PM	normal	select English as the user's language
+Wednesday, October 12, 2016 3:00:24 PM	normal	type "1" in the PIN number
+Wednesday, October 12, 2016 3:00:24 PM	normal	type "2" in the PIN number
+Wednesday, October 12, 2016 3:00:25 PM	normal	type "3" in the PIN number
+Wednesday, October 12, 2016 3:00:25 PM	normal	type "4" in the PIN number
+Wednesday, October 12, 2016 3:00:26 PM	normal	clear PIN number
+Wednesday, October 12, 2016 3:00:26 PM	normal	enter the PIN number and successfully sign in
+Wednesday, October 12, 2016 3:00:27 PM	normal	click Cash tab
+Wednesday, October 12, 2016 3:00:28 PM	normal	select the checking account to withdrawl cash
+Wednesday, October 12, 2016 3:00:28 PM	normal	type "1" in the withdrawl amount setting
+Wednesday, October 12, 2016 3:00:29 PM	normal	type "0" in withdrawl amount setting
+Wednesday, October 12, 2016 3:00:29 PM	normal	type "0" in withdrawl amount setting
+Wednesday, October 12, 2016 3:00:30 PM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 3:34:10 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 3:34:11 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 3:34:11 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 3:34:12 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 3:34:12 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 3:34:13 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:34:13 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 3:34:32 PM	normal	click Account Info tab
+Tuesday, October 25, 2016 3:34:33 PM	normal	show the summary of the user's accounts
+Tuesday, October 25, 2016 3:34:34 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:34:43 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:34:45 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 3:34:46 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 3:34:47 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 3:34:47 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 3:34:47 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 3:34:48 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:34:48 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 3:39:18 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 3:39:19 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 3:39:20 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 3:39:20 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 3:39:21 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 3:39:22 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:39:22 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 3:39:24 PM	normal	click Cash tab
+Tuesday, October 25, 2016 3:39:28 PM	normal	select the checking account to withdrawl cash
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 3:42:38 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 3:42:40 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 3:42:41 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 3:42:41 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 3:42:41 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 3:42:42 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:42:42 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 3:42:45 PM	normal	click Account Info tab
+Tuesday, October 25, 2016 3:42:47 PM	normal	show the details of the user's accounts
+Tuesday, October 25, 2016 3:42:48 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:42:49 PM	normal	show the details of the user's accounts
+Tuesday, October 25, 2016 3:42:49 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:42:50 PM	normal	show the details of the user's accounts
+Tuesday, October 25, 2016 3:42:52 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 3:42:53 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 3:42:54 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 3:42:54 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 3:42:54 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 3:42:55 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:42:55 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 3:43:01 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 3:43:02 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 3:43:02 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 3:43:02 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 3:43:03 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 3:43:03 PM	normal	clear PIN number
+Tuesday, October 25, 2016 3:43:03 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 3:43:11 PM	normal	click Cash tab
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 4:11:07 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:11:08 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:11:08 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:11:12 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:11:13 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:11:14 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:11:14 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:11:14 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:11:15 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:11:15 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 4:16:10 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:16:11 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:16:11 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:16:12 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:16:12 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:16:13 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:16:13 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 4:16:16 PM	normal	click Transfer tab
+Tuesday, October 25, 2016 4:16:18 PM	normal	transfer between the user's accounts
+Tuesday, October 25, 2016 4:21:17 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:21:18 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:21:18 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:21:19 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:21:19 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:21:20 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:21:20 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 4:21:23 PM	normal	click Cash tab
+Tuesday, October 25, 2016 4:21:28 PM	normal	select the checking account to withdrawl cash
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 4:29:25 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:29:26 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:29:26 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:29:27 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:29:27 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:29:28 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:29:28 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 4:34:31 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:34:32 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:34:32 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:34:33 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:34:33 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:34:34 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:34:34 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 4:34:38 PM	normal	click Transfer tab
+Tuesday, October 25, 2016 4:34:39 PM	normal	transfer between the user's accounts
+Tuesday, October 25, 2016 4:39:46 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:39:47 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:39:48 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:39:49 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:39:49 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:39:50 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:39:50 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 4:39:53 PM	normal	click Cash tab
+Tuesday, October 25, 2016 4:39:58 PM	normal	select the checking account to withdrawl cash
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 4:58:04 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 4:58:05 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 4:58:06 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 4:58:06 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 4:58:07 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 4:58:07 PM	normal	clear PIN number
+Tuesday, October 25, 2016 4:58:07 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:03:09 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:03:10 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:03:10 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:03:11 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:03:11 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:03:12 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:03:12 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:03:15 PM	normal	click Transfer tab
+Tuesday, October 25, 2016 5:03:17 PM	normal	transfer between the user's accounts
+Tuesday, October 25, 2016 5:08:15 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:08:16 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:08:17 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:08:17 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:08:18 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:08:19 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:08:19 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:08:23 PM	normal	click Cash tab
+Tuesday, October 25, 2016 5:08:27 PM	normal	select the checking account to withdrawl cash
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 5:24:27 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:24:28 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:24:28 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:24:28 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:24:29 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:24:29 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:24:29 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:29:31 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:29:33 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:29:33 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:29:33 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:29:34 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:29:34 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:29:34 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:29:41 PM	normal	click Transfer tab
+Tuesday, October 25, 2016 5:29:42 PM	normal	transfer between the user's accounts
+Tuesday, October 25, 2016 5:34:36 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:34:38 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:34:38 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:34:39 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:34:39 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:34:40 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:34:40 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:34:41 PM	normal	click Cash tab
+Tuesday, October 25, 2016 5:34:42 PM	normal	select the checking account to withdrawl cash
+
+User Name: John	ID: 00030
+Tuesday, October 25, 2016 5:52:56 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:52:57 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:52:57 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:52:58 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:52:58 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:52:59 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:52:59 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:53:21 PM	normal	click Account Info tab
+Tuesday, October 25, 2016 5:53:22 PM	normal	show the summary of the user's accounts
+Tuesday, October 25, 2016 5:53:23 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:53:32 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:53:33 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:53:34 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:53:35 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:53:35 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:53:35 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:53:36 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:53:36 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:53:38 PM	normal	click Transfer tab
+Tuesday, October 25, 2016 5:53:39 PM	normal	transfer between the user's accounts
+Tuesday, October 25, 2016 5:53:44 PM	normal	successfully transfer $50from the saving acount to the checking account
+Tuesday, October 25, 2016 5:53:50 PM	normal	select English as the user's language
+Tuesday, October 25, 2016 5:53:51 PM	normal	type "1" in the PIN number
+Tuesday, October 25, 2016 5:53:51 PM	normal	type "2" in the PIN number
+Tuesday, October 25, 2016 5:53:52 PM	normal	type "3" in the PIN number
+Tuesday, October 25, 2016 5:53:52 PM	normal	type "4" in the PIN number
+Tuesday, October 25, 2016 5:53:53 PM	normal	clear PIN number
+Tuesday, October 25, 2016 5:53:53 PM	normal	enter the PIN number and successfully sign in
+Tuesday, October 25, 2016 5:53:55 PM	normal	click Cash tab
+Tuesday, October 25, 2016 5:53:56 PM	normal	select the checking account to withdrawl cash
+Tuesday, October 25, 2016 5:53:56 PM	normal	type "1" in the withdrawl amount setting
+Tuesday, October 25, 2016 5:53:57 PM	normal	type "0" in withdrawl amount setting
+Tuesday, October 25, 2016 5:53:57 PM	normal	type "0" in withdrawl amount setting
+Tuesday, October 25, 2016 5:54:00 PM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+Wednesday, October 26, 2016 10:12:47 AM	normal	select English as the user's language
+Wednesday, October 26, 2016 10:12:49 AM	normal	type "1" in the PIN number
+Wednesday, October 26, 2016 10:12:49 AM	normal	type "2" in the PIN number
+Wednesday, October 26, 2016 10:12:49 AM	normal	type "3" in the PIN number
+Wednesday, October 26, 2016 10:12:50 AM	normal	type "4" in the PIN number
+Wednesday, October 26, 2016 10:12:50 AM	normal	clear PIN number
+Wednesday, October 26, 2016 10:12:50 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 26, 2016 10:12:56 AM	normal	click Account Info tab
+Wednesday, October 26, 2016 10:12:57 AM	normal	show the summary of the user's accounts
+Wednesday, October 26, 2016 10:12:58 AM	normal	clear PIN number
+Wednesday, October 26, 2016 10:13:07 AM	normal	clear PIN number
+Wednesday, October 26, 2016 10:13:09 AM	normal	select English as the user's language
+Wednesday, October 26, 2016 10:13:09 AM	normal	type "1" in the PIN number
+Wednesday, October 26, 2016 10:13:10 AM	normal	type "2" in the PIN number
+Wednesday, October 26, 2016 10:13:10 AM	normal	type "3" in the PIN number
+Wednesday, October 26, 2016 10:13:11 AM	normal	type "4" in the PIN number
+Wednesday, October 26, 2016 10:13:11 AM	normal	clear PIN number
+Wednesday, October 26, 2016 10:13:11 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 26, 2016 10:13:13 AM	normal	click Transfer tab
+Wednesday, October 26, 2016 10:13:15 AM	normal	transfer between the user's accounts
+Wednesday, October 26, 2016 10:17:57 AM	normal	successfully transfer $50from the saving acount to the checking account
+Wednesday, October 26, 2016 10:18:03 AM	normal	select English as the user's language
+Wednesday, October 26, 2016 10:18:04 AM	normal	type "1" in the PIN number
+Wednesday, October 26, 2016 10:18:04 AM	normal	type "2" in the PIN number
+Wednesday, October 26, 2016 10:18:05 AM	normal	type "3" in the PIN number
+Wednesday, October 26, 2016 10:18:05 AM	normal	type "4" in the PIN number
+Wednesday, October 26, 2016 10:18:06 AM	normal	clear PIN number
+Wednesday, October 26, 2016 10:18:06 AM	normal	enter the PIN number and successfully sign in
+Wednesday, October 26, 2016 10:18:08 AM	normal	click Cash tab
+Wednesday, October 26, 2016 10:18:20 AM	normal	select the checking account to withdrawl cash
+Wednesday, October 26, 2016 10:18:20 AM	normal	type "1" in the withdrawl amount setting
+Wednesday, October 26, 2016 10:18:21 AM	normal	type "0" in withdrawl amount setting
+Wednesday, October 26, 2016 10:18:21 AM	normal	type "0" in withdrawl amount setting
+Wednesday, October 26, 2016 10:18:22 AM	normal	successfully withdrawl cash $100 from the user's checking account
+
+User Name: John	ID: 00030
+2017年2月4日 11:09:08	normal	select English as the user's language
+

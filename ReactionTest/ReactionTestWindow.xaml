@@ -1,0 +1,51 @@
+﻿<Window x:Class="ReactionTest.ReactionTestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:my="clr-namespace:ReactionTest" Loaded="Window_Loaded" WindowState="Maximized" WindowStyle="None" Topmost="True" Background="WhiteSmoke" Closing="WindowClosing">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Close"
+                        Executed="CloseCommandHandler"/>
+    </Window.CommandBindings>
+    <Window.InputBindings>
+        <KeyBinding Command="ApplicationCommands.Close"
+              Gesture="Ctrl+Shift+X" />
+    </Window.InputBindings>
+    <Window.Resources>
+        <CollectionViewSource x:Key="simpleReactionsViewSource" d:DesignSource="{d:DesignInstance my:SimpleReaction, CreateList=True}" />
+    </Window.Resources>
+    <Grid DataContext="{StaticResource simpleReactionsViewSource}">
+        
+        <TextBox Height="81" HorizontalAlignment="Left" Name="textBoxLeft" VerticalAlignment="Center" Width="88" Background="Lime" Visibility="Hidden" Margin="88,122,0,108" IsReadOnly="True" />
+        <TextBox Background="Lime" Height="81" HorizontalAlignment="Right" Margin="0,122,91,108" Name="textBoxRight" VerticalAlignment="Center" Width="88" Visibility="Hidden" IsReadOnly="True" />
+        <TextBox Background="Lime" Height="81" HorizontalAlignment="Center" Margin="208,0,207,0" Name="textBoxCenter" VerticalAlignment="Center" Width="88" Grid.Row="1" Visibility="Hidden" IsReadOnly="True" />
+        <TextBox  Height="81" HorizontalAlignment="Center" Margin="208,0,207,0" Name="textBoxPlus" VerticalAlignment="Center" Width="88" AutoWordSelection="True" Text="+" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="72" Grid.Row="1" IsReadOnly="True" BorderThickness="0" Background="WhiteSmoke" TextAlignment="Center" Visibility="Hidden" />
+        
+        
+        <TextBox Height="100" HorizontalAlignment="Center" Margin="205,70,198,141" Name="textBoxDemoSquare" VerticalAlignment="Center" Width="100" Background="Lime" Visibility="Hidden" IsReadOnly="True" />
+        
+       
+        
+        <MediaElement Height="24" HorizontalAlignment="Left" Margin="490,287,0,0" Name="mediaElement1" VerticalAlignment="Top" Width="13" Visibility="Collapsed" LoadedBehavior="Manual" Source="Resources\error sound.wav" MediaEnded="mediaElement1_MediaEnded"/>
+        <Viewbox HorizontalAlignment="Stretch" Name="viewbox1" VerticalAlignment="Stretch" Margin="12,0">
+            <TextBlock Height="Auto" HorizontalAlignment="Stretch" Name="textBlockInstructions1" Text="*Reaction Time Task*&#x0a;&#x0a;In this task you will be responding to a green square&#x0a;&#x0a;Sometimes you will be asked to press one key when the green square appears&#x0a;&#x0a;Other times you will press one of two keys depending on where the square appears&#x0a;&#x0a;Please try to be as fast as possible&#x0a;&#x0a;Detailed instructions will follow&#x0a;&#x0a;(press the space bar to continue)"  VerticalAlignment="Stretch" Width="2359" Margin="29,0,0,0" TextAlignment="Center" Visibility="Hidden" FontSize="72" TextWrapping="WrapWithOverflow" />
+            </Viewbox>
+        <Viewbox HorizontalAlignment="Stretch" Name="viewbox2" VerticalAlignment="Stretch" Margin="12,0">
+        <TextBlock Height="1089" HorizontalAlignment="Stretch" Name="textBlockInstructions2" Text="The target you will be responding to will look like the green square below.&#x0a;(press the space bar to continue)"  VerticalAlignment="Stretch" Width="1749" Margin="29,0,0,0" TextAlignment="Center" FontSize="56" Visibility="Hidden" TextWrapping="WrapWithOverflow" />
+        </Viewbox>
+        <Viewbox HorizontalAlignment="Stretch" Name="viewbox3" VerticalAlignment="Stretch" Margin="12,0">
+            <TextBlock Height="804" HorizontalAlignment="Stretch" Name="textBlockInstructions3" VerticalAlignment="Stretch" Width="1273" Margin="29,0,0,0" TextAlignment="Center" FontSize="48" Visibility="Hidden" TextWrapping="WrapWithOverflow" >
+            <LineBreak/><LineBreak/>*Task1: Simple Reaction Time Task*<LineBreak/><LineBreak/><LineBreak/>As soon as the square appears, press the <Bold Background="Yellow">B</Bold> key as quickly as possible<LineBreak/><LineBreak/><LineBreak/>(Make sure your finger is on the <Bold Background="Yellow">B</Bold> key now. Press the space bar to begin)
+            </TextBlock>
+        </Viewbox>
+        <Viewbox HorizontalAlignment="Stretch" Name="viewbox4" VerticalAlignment="Stretch" Margin="12,0">
+            <TextBlock Height="1296" HorizontalAlignment="Stretch" Name="textBlockInstructions4"   VerticalAlignment="Stretch" Width="2074" Margin="29,0,0,0" TextAlignment="Center" Visibility="Hidden" FontSize="60" TextWrapping="WrapWithOverflow" >
+            *Task 2: Complex Reaction Time*<LineBreak/><LineBreak/>This time your task will be different<LineBreak/><LineBreak/>The green square will appear on either the left or right side of the screen<LineBreak/><LineBreak/>If the square appears on the left, press the <Bold Background="Yellow">Z</Bold> key (on the left)<LineBreak/><LineBreak/>If the square appears on the right, press the <Bold Background="Yellow">/</Bold> key (on the right)<LineBreak/><LineBreak/>As soon as the square appears, make your response as quickly as possible<LineBreak/><LineBreak/>(Make sure you have one finger on the <Bold Background="Yellow">Z</Bold> key, and one on the <Bold Background="Yellow">/</Bold> key before you begin. Press the space bar now to begin)
+            </TextBlock>
+        </Viewbox>
+        <Viewbox HorizontalAlignment="Stretch" Name="viewbox5" VerticalAlignment="Stretch" Margin="12,0">
+            <TextBlock Height="1084" HorizontalAlignment="Stretch" Name="textBlockInstructions5"  VerticalAlignment="Stretch" Width="1638" Margin="29,0,0,0" TextAlignment="Center" FontSize="56" Visibility="Hidden" TextWrapping="WrapWithOverflow" >
+          <LineBreak/><LineBreak/>*Task1 Again: Simple Reaction Time Task*<LineBreak/><LineBreak/><LineBreak/>We will now do the Simple Reaction Time task again<LineBreak/><LineBreak/>You will see a green square appear in the middle of the screen<LineBreak/><LineBreak/> As soon as the square appears, press the <Bold Background="Yellow"> B</Bold> key as quickly as possible<LineBreak/><LineBreak/>(Make sure your finger is on the <Bold Background="Yellow">B</Bold> key now. Press the space bar to begin)"
+            </TextBlock>
+        </Viewbox>
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="doctorsDataStoreContainer" CdmEntityContainer="doctorsDataContainer">
+    <EntitySetMapping Name="newParticipants">
+      <EntityTypeMapping TypeName="IsTypeOf(doctorsData.newParticipant)">
+        <MappingFragment StoreEntitySet="newParticipants">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ParticipantID" ColumnName="ParticipantID" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Timepoint" ColumnName="Timepoint" />
+          <ScalarProperty Name="Timestamp" ColumnName="Timestamp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskDatas">
+      <EntityTypeMapping TypeName="IsTypeOf(doctorsData.TaskData)">
+        <MappingFragment StoreEntitySet="TaskDatas">
+          <ScalarProperty Name="TaskDataId" ColumnName="TaskDataId" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="EventData" ColumnName="EventData" />
+          <ScalarProperty Name="TaskName" ColumnName="TaskName" />
+          <ScalarProperty Name="EventSummary" ColumnName="EventSummary" />
+          <ScalarProperty Name="SubjectID" ColumnName="SubjectID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

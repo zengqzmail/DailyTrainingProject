@@ -1,0 +1,589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="key2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Megalith" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Megalith.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ampliex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ampliex.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PRT_en01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_EN_err01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-EN-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_intro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-intro.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp091" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_SP_err01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-SP-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en092" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en093" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_EN_err011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-EN-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_intro1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-intro.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prt_intro2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prt-intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp092" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp093" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_SP_err011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-SP-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en082" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en094" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en095" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_EN_err012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-EN-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_intro3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-intro.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prt_intro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prt-intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp082" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp094" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp095" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_SP_err012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-SP-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07a7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en07b7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en083" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en096" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_EN_err013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-EN-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_en_err053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-en-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_intro5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-intro.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="prt_intro6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\prt-intro.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp06.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07a7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07a.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp07b7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp07b.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp083" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp08.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp096" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp097" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp09.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_SP_err013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-SP-err01.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err02.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err03.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err04.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PRT_sp_err053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PRT-sp-err05.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Prt_en01_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Prt-en01-2.m4a;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Ampliex_ES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ampliex-ES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Megalith_ES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Megalith-ES.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

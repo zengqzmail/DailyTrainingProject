@@ -1,0 +1,80 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server Compact Edition
+-- --------------------------------------------------
+-- Date Created: 02/13/2013 14:41:59
+-- Generated from EDMX file: C:\Users\rblanco2\Documents\Visual Studio 2010\Projects\Functional Tasks\ReactionTest\Model1.edmx
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- NOTE: if the constraint does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- NOTE: if the table does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+    DROP TABLE [SimpleReactions];
+GO
+    DROP TABLE [ComplexReactions];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'SimpleReactions'
+CREATE TABLE [SimpleReactions] (
+    [Id] int  NOT NULL,
+    [Color] nvarchar(4000)  NOT NULL,
+    [Delay] int  NOT NULL,
+    [Location] nvarchar(4000)  NOT NULL,
+    [Height] int  NOT NULL,
+    [Width] int  NOT NULL,
+    [Touch] nvarchar(4000)  NOT NULL,
+    [Key] nvarchar(4000)  NOT NULL,
+    [Life] int  NOT NULL
+);
+GO
+
+-- Creating table 'ComplexReactions'
+CREATE TABLE [ComplexReactions] (
+    [Id] int  NOT NULL,
+    [Color] nvarchar(4000)  NOT NULL,
+    [Delay] int  NOT NULL,
+    [Location] nvarchar(4000)  NOT NULL,
+    [Height] int  NOT NULL,
+    [Width] int  NOT NULL,
+    [Touch] nvarchar(4000)  NOT NULL,
+    [Key] nvarchar(4000)  NOT NULL,
+    [Life] int  NOT NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [Id] in table 'SimpleReactions'
+ALTER TABLE [SimpleReactions]
+ADD CONSTRAINT [PK_SimpleReactions]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [Id] in table 'ComplexReactions'
+ALTER TABLE [ComplexReactions]
+ADD CONSTRAINT [PK_ComplexReactions]
+    PRIMARY KEY ([Id] );
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

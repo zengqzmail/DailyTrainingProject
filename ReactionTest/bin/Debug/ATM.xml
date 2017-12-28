@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ATM</name>
+    </assembly>
+    <members>
+        <member name="F:ATM.Assessor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATM.Assessor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATM.Assessor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:ATM.ATMStrings">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.AcctInformation">
+            <summary>
+              Looks up a localized string similar to ACCOUNT INFORMATION.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Available">
+            <summary>
+              Looks up a localized string similar to Available: $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Cancel">
+            <summary>
+              Looks up a localized string similar to Cancel.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Cash">
+            <summary>
+              Looks up a localized string similar to CASH.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.CheckBalanceReminder">
+            <summary>
+              Looks up a localized string similar to Your task is to check the balance in your checking account.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.CheckingAcct">
+            <summary>
+              Looks up a localized string similar to Checking Account: $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.CheckingAsterisk">
+            <summary>
+              Looks up a localized string similar to Checking: *.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.CheckingToSavings">
+            <summary>
+              Looks up a localized string similar to Checking -&gt; Savings.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.ConfirmCancelSubtaskMessage">
+            <summary>
+              Looks up a localized string similar to Select OK to return to the language select screen. Select NO to stay where you are..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Continue">
+            <summary>
+              Looks up a localized string similar to Continue.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.DepositButton">
+            <summary>
+              Looks up a localized string similar to DEPOSIT.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.EndSubtaskEarlyMessage">
+            <summary>
+              Looks up a localized string similar to Do you really want to exit this sub-task?.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Exit">
+            <summary>
+              Looks up a localized string similar to Exit.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.ExitAtmTaskMessage">
+            <summary>
+              Looks up a localized string similar to Thank you! Press Exit to close the ATM task.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.ExitTaskButton">
+            <summary>
+              Looks up a localized string similar to Exit Task.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.HowMuchCashToWithdraw">
+            <summary>
+              Looks up a localized string similar to How much cash would you like?.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.InvalidPIN">
+            <summary>
+              Looks up a localized string similar to Your input is not valid. 
+            		Please re-type PIN number..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.InYourCheckingAcct">
+            <summary>
+              Looks up a localized string similar to in your checking account.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.InYourCheckingAcctTwice">
+            <summary>
+              Looks up a localized string similar to  in your checking account\nIn your checking account, $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.InYourSavingsAcct">
+            <summary>
+              Looks up a localized string similar to  in your savings account.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.InYourSavingsAcctTwice">
+            <summary>
+              Looks up a localized string similar to in your saving account\nIn your saving account, $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.IsAvailable">
+            <summary>
+              Looks up a localized string similar to is available.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.MustSelectLanguage">
+            <summary>
+              Looks up a localized string similar to You must first select the language before you can continue..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.NextTaskPrompt">
+            <summary>
+              Looks up a localized string similar to Thank you! Press Continue to proceed to the next task.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.No">
+            <summary>
+              Looks up a localized string similar to No.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.NowCheckingAcctHas">
+            <summary>
+              Looks up a localized string similar to Now, your checking account has $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.NumPadClear">
+            <summary>
+              Looks up a localized string similar to CLEAR.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.NumPadEnter">
+            <summary>
+              Looks up a localized string similar to ENTER.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.OnlyHave10and20">
+            <summary>
+              Looks up a localized string similar to I only have $10 and $20 bills..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PinTriesRemaining">
+            <summary>
+              Looks up a localized string similar to attempt(s) remaining..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseEnterAmtRequired100">
+            <summary>
+              Looks up a localized string similar to Please enter the amount required by subtask!($100).
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseEnterAmtRequired50">
+            <summary>
+              Looks up a localized string similar to Please enter the amount required by subtask!($50).
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseEnterPIN">
+             <summary>
+               Looks up a localized string similar to Please tell me your Personal Identification Number
+            using the keypad.
+            Then press ENTER..
+             </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseMakeSelection">
+             <summary>
+               Looks up a localized string similar to What would you like to do?
+            
+            Please make a selection below..
+             </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseRetypeAmount10and20">
+            <summary>
+              Looks up a localized string similar to Please retype the amount. I only support $10 and $20 bills..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseRetypeAmtChecking">
+            <summary>
+              Looks up a localized string similar to Please retype the amount. Your checking account has.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseRetypeAmtSavings">
+            <summary>
+              Looks up a localized string similar to Please retype the amount. Your savings account has.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseRetypeTransferAmt">
+            <summary>
+              Looks up a localized string similar to Please retype the amount you want to transfer..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseSelectLanguage">
+            <summary>
+              Looks up a localized string similar to Please select a language.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseTakeBills">
+            <summary>
+              Looks up a localized string similar to Please take the bills..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseTypeInCashAmt">
+            <summary>
+              Looks up a localized string similar to Please type in the amount of cash you want to withdraw.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PleaseTypeTransferAmt">
+            <summary>
+              Looks up a localized string similar to Please type in the amount you want to transfer..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PreferenceButton">
+            <summary>
+              Looks up a localized string similar to PREFERENCE.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.PromptForMoreTime">
+            <summary>
+              Looks up a localized string similar to Do you need more time to complete this task?.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.SavingsAcct">
+            <summary>
+              Looks up a localized string similar to Savings Account: $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.SavingsAsterisk">
+            <summary>
+              Looks up a localized string similar to Savings: *.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.SavingsToChecking">
+            <summary>
+              Looks up a localized string similar to Savings -&gt; Checking.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.SeeAcctDetails">
+            <summary>
+              Looks up a localized string similar to See account details.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.SeeSummaryAccts">
+            <summary>
+              Looks up a localized string similar to See summary of accounts.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TakeBackYourChecks">
+            <summary>
+              Looks up a localized string similar to Please take back your checks..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Task1_Instructions">
+            <summary>
+              Looks up a localized string similar to Please use the ATM below to check the balance in your checking account.Your Account PIN is 1234..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Task2_Instructions">
+            <summary>
+              Looks up a localized string similar to Please use the ATM below to transfer 50 dollars from your savings account to your checking account. Your Account PIN is 1234..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Task3_Instructions">
+            <summary>
+              Looks up a localized string similar to Please use the ATM below to withdraw 100 dollars from your checking account. Your Account PIN is 1234..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TheAvailableAmtInCheckingIs">
+            <summary>
+              Looks up a localized string similar to The available amount in your checking account is.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TheAvailableAmtInSavingsIs">
+            <summary>
+              Looks up a localized string similar to The available amount in your savings account is.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TransactionDoneSuccessfully">
+            <summary>
+              Looks up a localized string similar to Transaction completed successfully..
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Transfer50DollarsReminder">
+            <summary>
+              Looks up a localized string similar to Your task is to transfer 50 dollars from your savings account to  your checking account .
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TransferBetweenMyAccts">
+            <summary>
+              Looks up a localized string similar to Transfer between my accounts.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TransferOrPayment">
+            <summary>
+              Looks up a localized string similar to TRANSFER OR PAYMENT.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.TransferToOtherAcct">
+            <summary>
+              Looks up a localized string similar to Transfer to other U.S. accounts.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Warning">
+            <summary>
+              Looks up a localized string similar to Warning!.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.WhatWouldYouLikeToDo">
+            <summary>
+              Looks up a localized string similar to What would you like to do?.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.WhereToTransferFrom">
+            <summary>
+              Looks up a localized string similar to Where would you like to transfer from?.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.WhereToWithdrawMoney">
+            <summary>
+              Looks up a localized string similar to Where shall I get the money from?.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.WithdrawCashReminder">
+            <summary>
+              Looks up a localized string similar to Your task is to withdraw 100 dollars from your checking account.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.Yes">
+            <summary>
+              Looks up a localized string similar to Yes.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.YouHaveDeposited">
+            <summary>
+              Looks up a localized string similar to You have deposited $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.YourCheckingAcctID">
+            <summary>
+              Looks up a localized string similar to Your checking account ID: .
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.YourSavingsAcctHas">
+            <summary>
+              Looks up a localized string similar to Your saving account has $.
+            </summary>
+        </member>
+        <member name="P:ATM.ATMStrings.YourSavingsAcctID">
+            <summary>
+              Looks up a localized string similar to Your saving account ID: .
+            </summary>
+        </member>
+        <member name="F:ATM.BankOfAmericaForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATM.BankOfAmericaForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATM.BankOfAmericaForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ATM.CitiBankForm.calculateButtonLocationX(System.Int32)">
+            indexes start from 0
+        </member>
+        <member name="F:ATM.CitiBankForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATM.CitiBankForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATM.CitiBankForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ATM.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATM.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATM.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="F:ATM.Form2.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ATM.Form2.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ATM.Form2.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ATM.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:ATM.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:ATM.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:ATM.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

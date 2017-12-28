@@ -1,0 +1,127 @@
+﻿<UserControl x:Class="WpfApplication1.Questions2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="454" d:DesignWidth="452" xmlns:my="clr-namespace:WpfApplication1">
+    <Grid Height="Auto" Width="Auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="90*" />
+            <ColumnDefinition Width="90*" />
+            <ColumnDefinition Width="90*" />
+            <ColumnDefinition Width="69*" />
+            <ColumnDefinition Width="112*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="21*" />
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="18*" />
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="22*" />
+            <RowDefinition Height="20*" />
+            <RowDefinition Height="22*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="103*" />
+        </Grid.RowDefinitions>
+        <Grid Height="Auto" HorizontalAlignment="Left" Name="grid1" VerticalAlignment="Top" Width="Auto" />
+        <MediaElement Height="Auto" HorizontalAlignment="Center" Name="mediaElement1" VerticalAlignment="Center"  MediaEnded="mediaElement1_MediaEnded" Width="Auto"  Stretch="Uniform" Grid.ColumnSpan="5" Grid.RowSpan="10" />
+        <StackPanel Grid.Row="10" Height="Auto" HorizontalAlignment="Left" Name="stackPanel1" VerticalAlignment="Top" Width="Auto" Grid.ColumnSpan="3" Grid.Column="1" Visibility="Hidden" Margin="0,17,0,0" Grid.RowSpan="2">
+            <CheckBox  Height="Auto" Name="checkBox2" FontSize="36" Checked="checkBox2_Checked" Visibility="Visible" />
+            <CheckBox  Height="Auto" Name="checkBox3" FontSize="36" Checked="checkBox3_Checked" />
+            <CheckBox  Height="Auto" Name="checkBox4" FontSize="36" Checked="checkBox4_Checked" />
+            <CheckBox  Height="Auto" Name="checkBox1" FontSize="36" Checked="checkBox5_Checked" />
+            <CheckBox Content="" Height="Auto" Name="checkBox5" FontSize="36" Checked="checkBox6_Checked" Visibility="Hidden" />
+            <CheckBox Content="CheckBox" Height="Auto" Name="checkBox6" Visibility="Hidden" FontSize="36" Checked="checkBox6_Checked_1" />
+        </StackPanel>
+        <Button Grid.Column="3" Grid.Row="11" Height="Auto" HorizontalAlignment="Stretch" Name="continueButton" VerticalAlignment="Bottom" Grid.ColumnSpan="2" FontSize="72" Click="continueButton_Click" Visibility="Hidden" Margin="15,0,0,0" IsVisibleChanged="continueButton_IsVisibleChanged" />
+        <Button Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" Name="button2" Width="Auto" FontSize="30" Click="button2_Click" Visibility="Hidden" />
+        <Button Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" Name="skipQuestionButton" Width="Auto" Click="skipQuestionButton_Click"  FontSize="32"  Visibility="Collapsed" Padding="30,0,30,0"/>
+        <Grid Grid.Column="1" Grid.Row="10" Height="Auto" HorizontalAlignment="Stretch" Margin="1,17,3,0" Name="grid2" VerticalAlignment="Stretch" Visibility="Hidden" Grid.ColumnSpan="2" Grid.RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="55*" />
+                <ColumnDefinition Width="55*" />
+                <ColumnDefinition Width="55*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="38*" />
+                <RowDefinition Height="38*" />
+                <RowDefinition Height="38*" />
+                <RowDefinition Height="38*" />
+                <RowDefinition Height="38*" />
+            </Grid.RowDefinitions>
+            <TextBox HorizontalAlignment="Stretch" Margin="2,15,0,0" Name="textBox1" VerticalAlignment="Stretch" Width="Auto" HorizontalContentAlignment="Right" IsReadOnly="True" Text="" FontSize="32" Grid.ColumnSpan="3" VerticalContentAlignment="Center" />
+            <Button Content="1" Grid.Row="1" HorizontalAlignment="Stretch" Name="button3" VerticalAlignment="Stretch" Click="button3_Click" Margin="-1,0,0,0" />
+            <Button Content="2" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Name="button4" VerticalAlignment="Stretch" Width="Auto" Grid.Column="1" Click="button4_Click" />
+            <Button Content="3" Grid.Column="2" Grid.Row="1" Height="Auto" HorizontalAlignment="Stretch" Name="button5" VerticalAlignment="Stretch" Width="Auto" Click="button5_Click" />
+            <Button Content="4" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="2,1,0,0" Name="button6" VerticalAlignment="Stretch" Click="button6_Click" />
+            <Button Content="5" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Stretch" Name="button7" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Click="button7_Click" />
+            <Button Content="6" Grid.Column="2" Grid.Row="2" Height="Auto" HorizontalAlignment="Stretch" Margin="0,1,0,0" Name="button8" VerticalAlignment="Stretch" Width="Auto" Click="button8_Click" />
+            <Button Content="7" Grid.Row="3" HorizontalAlignment="Stretch" Margin="2,0,0,0" Name="button9" VerticalAlignment="Stretch" Click="button9_Click" />
+            <Button Content="8" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Stretch" Name="button10" VerticalAlignment="Stretch" VerticalContentAlignment="Center" Click="button10_Click" />
+            <Button Content="9" Grid.Column="2" Grid.Row="3" Height="Auto" HorizontalAlignment="Stretch" Name="button11" VerticalAlignment="Stretch" Width="Auto" VerticalContentAlignment="Center" Click="button11_Click" />
+            <Button Content="0" Grid.Column="1" Grid.Row="4" HorizontalAlignment="Stretch" Name="button12" VerticalAlignment="Stretch" Width="Auto" Click="button12_Click" />
+            <Button Grid.Column="2" Grid.Row="4" HorizontalAlignment="Stretch" Name="button13" VerticalAlignment="Stretch" Width="Auto" Click="button13_Click" />
+        </Grid>
+        <StackPanel Grid.Row="10" Height="Auto" HorizontalAlignment="Left" Name="stackPanel3" VerticalAlignment="Top" Width="Auto" Grid.ColumnSpan="5" Visibility="Hidden" Margin="70,17,10,0" Grid.RowSpan="2">
+            <RadioButton  Height="Auto" Name="radioButton10" FontSize="30" Checked="radioButton1_Checked" Visibility="Visible" >
+                <RadioButton.Content>
+                    <TextBlock Name="rb10TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Height="auto" Name="radioButton11" FontSize="30" Checked="radioButton1_Checked" >
+                <RadioButton.Content>
+                    <TextBlock Name="rb11TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton  Height="auto" Name="radioButton12" FontSize="30" Checked="radioButton1_Checked">
+                <RadioButton.Content>
+                    <TextBlock Name="rb12TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton  Height="auto" Name="radioButton13" FontSize="30" Checked="radioButton1_Checked" >
+                <RadioButton.Content>
+                    <TextBlock Name="rb13TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Content="25 days" Height="auto" Name="radioButton14" FontSize="32" Visibility="Hidden" Checked="radioButton1_Checked" />
+            <RadioButton Content="RadioButton" Height="Auto" Name="radioButton15" Visibility="Hidden" FontSize="32" Checked="radioButton1_Checked" />
+        </StackPanel>
+        <StackPanel Grid.Row="10" Height="Auto" HorizontalAlignment="Left" Name="stackPanel2" VerticalAlignment="Top" Width="Auto" Grid.ColumnSpan="4" Grid.Column="1" Visibility="Hidden" Margin="0,17,0,0" Grid.RowSpan="2">
+            <RadioButton  Height="Auto" Name="radioButton1" FontSize="36" Checked="radioButton1_Checked" >
+                <RadioButton.Content>
+                    <TextBlock Name="rb1TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton  Height="auto" Name="radioButton2" FontSize="36" Checked="radioButton1_Checked">
+                <RadioButton.Content>
+                    <TextBlock Name="rb2TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton  Height="auto" Name="radioButton3" FontSize="36" Checked="radioButton1_Checked">
+                <RadioButton.Content>
+                    <TextBlock Name="rb3TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton  Height="auto" Name="radioButton4" FontSize="36" Checked="radioButton1_Checked">
+                <RadioButton.Content>
+                    <TextBlock Name="rb4TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Height="auto" Name="radioButton5" FontSize="36" Visibility="Hidden" Checked="radioButton1_Checked" >
+                <RadioButton.Content>
+                    <TextBlock Name="rb5TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+            <RadioButton Height="Auto" Name="radioButton6" Visibility="Hidden" FontSize="36" Checked="radioButton1_Checked">
+                <RadioButton.Content>
+                    <TextBlock Name="rb6TextBlock"  TextWrapping="Wrap" />
+                </RadioButton.Content>
+            </RadioButton>
+        </StackPanel>
+    </Grid>
+</UserControl>
+

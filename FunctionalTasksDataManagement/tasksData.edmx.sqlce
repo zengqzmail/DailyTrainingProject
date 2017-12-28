@@ -1,0 +1,75 @@
+
+-- --------------------------------------------------
+-- Entity Designer DDL Script for SQL Server Compact Edition
+-- --------------------------------------------------
+-- Date Created: 02/12/2013 17:10:36
+-- Generated from EDMX file: C:\Users\rblanco2\Documents\Visual Studio 2010\Projects\Functional Tasks\TasksMainMenu\tasksData.edmx
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing FOREIGN KEY constraints
+-- NOTE: if the constraint does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+
+-- --------------------------------------------------
+-- Dropping existing tables
+-- NOTE: if the table does not exist, an ignorable error will be reported.
+-- --------------------------------------------------
+
+    DROP TABLE [newParticipants];
+GO
+    DROP TABLE [TaskDatas];
+GO
+
+-- --------------------------------------------------
+-- Creating all tables
+-- --------------------------------------------------
+
+-- Creating table 'newParticipants'
+CREATE TABLE [newParticipants] (
+    [Id] int  NOT NULL,
+    [ParticipantID] nvarchar(4000)  NOT NULL,
+    [Age] int  NOT NULL,
+    [Gender] nvarchar(4000)  NOT NULL,
+    [Timepoint] int  NOT NULL,
+    [Timestamp] datetime  NOT NULL
+);
+GO
+
+-- Creating table 'TaskDatas'
+CREATE TABLE [TaskDatas] (
+    [TaskDataId] int  NOT NULL,
+    [Time] datetime  NOT NULL,
+    [EventType] nvarchar(4000)  NOT NULL,
+    [EventData] nvarchar(4000)  NOT NULL,
+    [TaskName] nvarchar(4000)  NOT NULL,
+    [EventSummary] nvarchar(4000)  NULL,
+    [SubjectID] nvarchar(4000)  NOT NULL
+);
+GO
+
+-- --------------------------------------------------
+-- Creating all PRIMARY KEY constraints
+-- --------------------------------------------------
+
+-- Creating primary key on [Id] in table 'newParticipants'
+ALTER TABLE [newParticipants]
+ADD CONSTRAINT [PK_newParticipants]
+    PRIMARY KEY ([Id] );
+GO
+
+-- Creating primary key on [TaskDataId] in table 'TaskDatas'
+ALTER TABLE [TaskDatas]
+ADD CONSTRAINT [PK_TaskDatas]
+    PRIMARY KEY ([TaskDataId] );
+GO
+
+-- --------------------------------------------------
+-- Creating all FOREIGN KEY constraints
+-- --------------------------------------------------
+
+-- --------------------------------------------------
+-- Script has ended
+-- --------------------------------------------------

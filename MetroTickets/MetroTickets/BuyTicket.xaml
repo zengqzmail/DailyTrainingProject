@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="MetroTickets.BuyTicket"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="428" d:DesignWidth="671">
+    <Grid Height="Auto" Width="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90*" />
+            <RowDefinition Height="153*" />
+            <RowDefinition Height="185*" />
+        </Grid.RowDefinitions>
+        <Button Content="Buy EASY Card" Height="54" HorizontalAlignment="Left" Margin="38,0,0,0" Name="button1" VerticalAlignment="Top" Width="319" FontSize="36" Grid.Row="1" Click="button1_Click" />
+        <Label Content="                           Make a selection from the options below:&#x0a; If you already have an EASY Card or EASY ticket, go back and select&#x0a;                            Load an EASY Card or EASY ticket" Height="Auto" HorizontalAlignment="Center" Margin="62,12,0,0" Name="label1" VerticalAlignment="Center" Width="Auto" FontSize="28" />
+        <Label Content="- The card is valid for three years&#x0a;-Load it with 1-Day Pass, 7-Day Pass, or a 1-Month Pass and/or cash value of up to $150&#x0a;-Buy an EASY card if you are loading a 1-Month Pass or a 1-Month Pass with a monthly Metrorail Parking permit.&#x0a;-Can be registered for balance protection. " Height="Auto" HorizontalAlignment="Center" Margin="12,47,8,0" Name="label2" VerticalAlignment="Top" Width="Auto" Grid.Row="1" FontSize="24" />
+        <Button Content="Buy EASY Ticket" Height="54" HorizontalAlignment="Left" Margin="38,3,0,0" Name="button2" VerticalAlignment="Top" Width="319" FontSize="36" Grid.Row="2" Click="button2_Click" />
+        <Label Content="-Ideal for short-term use. The ticket expires 60 days from date of purchase.&#x0a;-Load it with a 1-Day Pass, 7-Day Pass or cash value of up to $40" Height="Auto" HorizontalAlignment="Left" Margin="12,63,0,0" Name="label3" VerticalAlignment="Top" Width="Auto" Grid.Row="2" FontSize="24" IsHitTestVisible="False" />
+    </Grid>
+</UserControl>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SubTask1_Instructions" xml:space="preserve">
+    <value>You are in Miami for a week and you expect to use public transportation extensively during that time. Using the transportation pass dispenser, purchase the pass that you will need during your stay here, keeping in mind that you will be returning to Miami in 3 months and you want to use the same pass then.</value>
+  </data>
+  <data name="SubTask2_Instructions" xml:space="preserve">
+    <value>You are waiting for a friend to meet up with you at the metrorail station. You have a metro pass, but your friend does not. Since you will both be using the metro transportation system most of the day, purchase a pass for your friend while you wait for him.</value>
+  </data>
+  <data name="SubTask3_Instructions" xml:space="preserve">
+    <value>You are not sure how much money you have on your easy card, but you want to make sure that you have $30 on it to last you through the rest of the month. Please use the system to make sure of it.</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="IntroMessage" xml:space="preserve">
+    <value>Please use the metro kiosk below to complete the prompted tasks</value>
+  </data>
+  <data name="ProceedNextTaskPrompt" xml:space="preserve">
+    <value>Thank you! Please proceed to the next task</value>
+  </data>
+  <data name="YourTaskIs" xml:space="preserve">
+    <value>Your task is</value>
+  </data>
+  <data name="ToBeginMakeSelection" xml:space="preserve">
+    <value>To begin, please make a selection from the options below:</value>
+  </data>
+  <data name="BuyCardOrTicket" xml:space="preserve">
+    <value>Buy an EASY Card or EASY Ticket</value>
+  </data>
+  <data name="LoadCardOrTicket" xml:space="preserve">
+    <value>Load an EASY Card or EASY Ticket</value>
+  </data>
+  <data name="CheckSchedule" xml:space="preserve">
+    <value>Check Schedule</value>
+  </data>
+  <data name="BuyEasyCardDetails" xml:space="preserve">
+    <value>The card is valid for three years
+-Load it with 1-Day Pass, 7-Day Pass, or a 1-Month Pass and/or cash value of up to $150
+-Buy an EASY card if you are loading a 1-Month Pass or a 1-Month Pass with a monthly Metrorail Parking permit.</value>
+  </data>
+  <data name="BuyEasyTicketDetails" xml:space="preserve">
+    <value>-Ideal for short-term use. 
+-The ticket expires 60 days from date of purchase.
+-Load it with a 1-Day Pass, 7-Day Pass or cash value of up to $40</value>
+  </data>
+  <data name="BuyEasyCard" xml:space="preserve">
+    <value>Buy EASY Card</value>
+  </data>
+  <data name="BuyEasyTicket" xml:space="preserve">
+    <value>Buy EASY Ticket</value>
+  </data>
+  <data name="MakeSelectionBelow" xml:space="preserve">
+    <value>Make a selection from the options below:</value>
+  </data>
+  <data name="CurrentBalance10USD" xml:space="preserve">
+    <value>Your current balance is $10.</value>
+  </data>
+  <data name="OneMonthPass" xml:space="preserve">
+    <value>1-Month Pass</value>
+  </data>
+  <data name="DayPasses" xml:space="preserve">
+    <value>Day Passes</value>
+  </data>
+  <data name="OneMonthPassPlusParking" xml:space="preserve">
+    <value>1-Month Pass + Parking</value>
+  </data>
+  <data name="OneMonthPassPlusParkingDetails" xml:space="preserve">
+    <value>Available from the 20th day of the proceeding month to the 10th day of the month for which you are purchasing the pass or permit</value>
+  </data>
+  <data name="OneMonthPassDetails" xml:space="preserve">
+    <value>Available from the 20th day of the proceeding month to the 10th day of the month for which you are purchasing the pass</value>
+  </data>
+  <data name="AddCashValue" xml:space="preserve">
+    <value>Add Cash Value</value>
+  </data>
+  <data name="OneDayTicket" xml:space="preserve">
+    <value>1-Day Ticket: Cost $5.00</value>
+  </data>
+  <data name="OneDayTicketDetails" xml:space="preserve">
+    <value>-Unlimited Rides for one calender day
+-Valid from the time you first tap your card or ticket on a Metrorail faregate or Metrobus farebox until 2 a.m. the following day.</value>
+  </data>
+  <data name="ReturnToMainScreen" xml:space="preserve">
+    <value>Return to main screen</value>
+  </data>
+  <data name="SevenDayTicket" xml:space="preserve">
+    <value>7-Day Ticket: Cost $26.00</value>
+  </data>
+  <data name="SevenDayTicketDetails" xml:space="preserve">
+    <value>-Unlimited Rides for seven consecutive calender days 
+-Valid from the time you first tap your card or ticket on a Metrorail faregate or Metrobus farebox.</value>
+  </data>
+  <data name="TapCardOnReader" xml:space="preserve">
+    <value>To begin, tap your card on the reader below:</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="ThankYouForCompletingTask" xml:space="preserve">
+    <value>Thank you for completing this task</value>
+  </data>
+  <data name="SubtaskMoreTimePrompt" xml:space="preserve">
+    <value>Would you like more time to complete this task?</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

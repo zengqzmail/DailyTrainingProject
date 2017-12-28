@@ -1,0 +1,809 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="MainMenu.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="MainMenuStoreContainer">
+          <EntitySet Name="Assesors" EntityType="MainMenu.Store.Assesors" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ExternalStudies" EntityType="MainMenu.Store.ExternalStudies" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ParticipantExternalStudyAssociatives" EntityType="MainMenu.Store.ParticipantExternalStudyAssociatives" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Participants" EntityType="MainMenu.Store.Participants" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Sites" EntityType="MainMenu.Store.Sites" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Studies" EntityType="MainMenu.Store.Studies" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TaskDatas" EntityType="MainMenu.Store.TaskDatas" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TaskInstances" EntityType="MainMenu.Store.TaskInstances" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TaskTypes" EntityType="MainMenu.Store.TaskTypes" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_AssesorParticipant" Association="MainMenu.Store.FK_AssesorParticipant">
+            <End Role="Assesors" EntitySet="Assesors" />
+            <End Role="Participants" EntitySet="Participants" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AssesorStudy" Association="MainMenu.Store.FK_AssesorStudy">
+            <End Role="Assesors" EntitySet="Assesors" />
+            <End Role="Studies" EntitySet="Studies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ExternalStudyParticipantExternalStudyAssociative" Association="MainMenu.Store.FK_ExternalStudyParticipantExternalStudyAssociative">
+            <End Role="ExternalStudies" EntitySet="ExternalStudies" />
+            <End Role="ParticipantExternalStudyAssociatives" EntitySet="ParticipantExternalStudyAssociatives" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ParticipantParticipantExternalStudyAssociative" Association="MainMenu.Store.FK_ParticipantParticipantExternalStudyAssociative">
+            <End Role="Participants" EntitySet="Participants" />
+            <End Role="ParticipantExternalStudyAssociatives" EntitySet="ParticipantExternalStudyAssociatives" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ParticipantTaskInstance" Association="MainMenu.Store.FK_ParticipantTaskInstance">
+            <End Role="Participants" EntitySet="Participants" />
+            <End Role="TaskInstances" EntitySet="TaskInstances" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteParticipant" Association="MainMenu.Store.FK_SiteParticipant">
+            <End Role="Sites" EntitySet="Sites" />
+            <End Role="Participants" EntitySet="Participants" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SiteStudy" Association="MainMenu.Store.FK_SiteStudy">
+            <End Role="Sites" EntitySet="Sites" />
+            <End Role="Studies" EntitySet="Studies" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudyParticipant" Association="MainMenu.Store.FK_StudyParticipant">
+            <End Role="Studies" EntitySet="Studies" />
+            <End Role="Participants" EntitySet="Participants" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudyTaskInstance" Association="MainMenu.Store.FK_StudyTaskInstance">
+            <End Role="Studies" EntitySet="Studies" />
+            <End Role="TaskInstances" EntitySet="TaskInstances" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TaskInstanceTaskData" Association="MainMenu.Store.FK_TaskInstanceTaskData">
+            <End Role="TaskInstances" EntitySet="TaskInstances" />
+            <End Role="TaskDatas" EntitySet="TaskDatas" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TaskTypeTaskInstance" Association="MainMenu.Store.FK_TaskTypeTaskInstance">
+            <End Role="TaskTypes" EntitySet="TaskTypes" />
+            <End Role="TaskInstances" EntitySet="TaskInstances" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Assesors">
+          <Key>
+            <PropertyRef Name="AssesorId" />
+          </Key>
+          <Property Name="AssesorId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="AssesorName" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="AssesorTitle" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="AssessorEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsActive" Type="bit" />
+          <Property Name="EnteredBy" Type="nchar" MaxLength="50" />
+          <Property Name="EnteredTime" Type="datetime" />
+          <Property Name="UpdatedBy" Type="nchar" MaxLength="50" />
+          <Property Name="UpdatedTime" Type="datetime" />
+          <Property Name="DeactivatedTime" Type="datetime" />
+          <Property Name="AdminPrivileges" Type="bit" />
+        </EntityType>
+        <EntityType Name="ExternalStudies">
+          <Key>
+            <PropertyRef Name="ExternalStudyId" />
+          </Key>
+          <Property Name="ExternalStudyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ExternalStudyDesc" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ParticipantExternalStudyAssociatives">
+          <Key>
+            <PropertyRef Name="PartExtStudyAssId" />
+          </Key>
+          <Property Name="PartExtStudyAssId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ExtStudyParticipantId" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ParticipantId" Type="int" Nullable="false" />
+          <Property Name="ExternalStudyId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Participants">
+          <Key>
+            <PropertyRef Name="ParticipantId" />
+          </Key>
+          <Property Name="ParticipantId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Age" Type="smallint" Nullable="false" />
+          <Property Name="Gender" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="EffectiveDate" Type="datetime" Nullable="false" />
+          <Property Name="AssesorId" Type="int" Nullable="false" />
+          <Property Name="StudyId" Type="int" Nullable="false" />
+          <Property Name="SiteId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Sites">
+          <Key>
+            <PropertyRef Name="SiteId" />
+          </Key>
+          <Property Name="SiteId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="SiteTitle" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Studies">
+          <Key>
+            <PropertyRef Name="StudyId" />
+          </Key>
+          <Property Name="StudyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="StudyTitle" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Examiner" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="AssesorId" Type="int" Nullable="false" />
+          <Property Name="SiteId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TaskDatas">
+          <Key>
+            <PropertyRef Name="TaskDataId" />
+          </Key>
+          <Property Name="TaskDataId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Time" Type="datetime" Nullable="false" />
+          <Property Name="EventType" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="EventData" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="TaskInstanceId" Type="int" Nullable="false" />
+          <Property Name="EventSummary" Type="nvarchar(max)" />
+          <Property Name="SiteId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TaskInstances">
+          <Key>
+            <PropertyRef Name="TaskInstanceId" />
+          </Key>
+          <Property Name="TaskInstanceId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TaskTitle" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="StartDate" Type="datetime" Nullable="false" />
+          <Property Name="ParticipantId" Type="int" Nullable="false" />
+          <Property Name="StudyId" Type="int" Nullable="false" />
+          <Property Name="TaskTypeId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TaskTypes">
+          <Key>
+            <PropertyRef Name="TaskTypeId" />
+          </Key>
+          <Property Name="TaskTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="TaskTypeDesc" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_AssesorParticipant">
+          <End Role="Assesors" Type="MainMenu.Store.Assesors" Multiplicity="1" />
+          <End Role="Participants" Type="MainMenu.Store.Participants" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Assesors">
+              <PropertyRef Name="AssesorId" />
+            </Principal>
+            <Dependent Role="Participants">
+              <PropertyRef Name="AssesorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AssesorStudy">
+          <End Role="Assesors" Type="MainMenu.Store.Assesors" Multiplicity="1" />
+          <End Role="Studies" Type="MainMenu.Store.Studies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Assesors">
+              <PropertyRef Name="AssesorId" />
+            </Principal>
+            <Dependent Role="Studies">
+              <PropertyRef Name="AssesorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ExternalStudyParticipantExternalStudyAssociative">
+          <End Role="ExternalStudies" Type="MainMenu.Store.ExternalStudies" Multiplicity="1" />
+          <End Role="ParticipantExternalStudyAssociatives" Type="MainMenu.Store.ParticipantExternalStudyAssociatives" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ExternalStudies">
+              <PropertyRef Name="ExternalStudyId" />
+            </Principal>
+            <Dependent Role="ParticipantExternalStudyAssociatives">
+              <PropertyRef Name="ExternalStudyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ParticipantParticipantExternalStudyAssociative">
+          <End Role="Participants" Type="MainMenu.Store.Participants" Multiplicity="1" />
+          <End Role="ParticipantExternalStudyAssociatives" Type="MainMenu.Store.ParticipantExternalStudyAssociatives" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participants">
+              <PropertyRef Name="ParticipantId" />
+            </Principal>
+            <Dependent Role="ParticipantExternalStudyAssociatives">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ParticipantTaskInstance">
+          <End Role="Participants" Type="MainMenu.Store.Participants" Multiplicity="1" />
+          <End Role="TaskInstances" Type="MainMenu.Store.TaskInstances" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participants">
+              <PropertyRef Name="ParticipantId" />
+            </Principal>
+            <Dependent Role="TaskInstances">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiteParticipant">
+          <End Role="Sites" Type="MainMenu.Store.Sites" Multiplicity="1" />
+          <End Role="Participants" Type="MainMenu.Store.Participants" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sites">
+              <PropertyRef Name="SiteId" />
+            </Principal>
+            <Dependent Role="Participants">
+              <PropertyRef Name="SiteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SiteStudy">
+          <End Role="Sites" Type="MainMenu.Store.Sites" Multiplicity="1" />
+          <End Role="Studies" Type="MainMenu.Store.Studies" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Sites">
+              <PropertyRef Name="SiteId" />
+            </Principal>
+            <Dependent Role="Studies">
+              <PropertyRef Name="SiteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudyParticipant">
+          <End Role="Studies" Type="MainMenu.Store.Studies" Multiplicity="1" />
+          <End Role="Participants" Type="MainMenu.Store.Participants" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Studies">
+              <PropertyRef Name="StudyId" />
+            </Principal>
+            <Dependent Role="Participants">
+              <PropertyRef Name="StudyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudyTaskInstance">
+          <End Role="Studies" Type="MainMenu.Store.Studies" Multiplicity="1" />
+          <End Role="TaskInstances" Type="MainMenu.Store.TaskInstances" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Studies">
+              <PropertyRef Name="StudyId" />
+            </Principal>
+            <Dependent Role="TaskInstances">
+              <PropertyRef Name="StudyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TaskInstanceTaskData">
+          <End Role="TaskInstances" Type="MainMenu.Store.TaskInstances" Multiplicity="1" />
+          <End Role="TaskDatas" Type="MainMenu.Store.TaskDatas" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaskInstances">
+              <PropertyRef Name="TaskInstanceId" />
+            </Principal>
+            <Dependent Role="TaskDatas">
+              <PropertyRef Name="TaskInstanceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TaskTypeTaskInstance">
+          <End Role="TaskTypes" Type="MainMenu.Store.TaskTypes" Multiplicity="1" />
+          <End Role="TaskInstances" Type="MainMenu.Store.TaskInstances" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaskTypes">
+              <PropertyRef Name="TaskTypeId" />
+            </Principal>
+            <Dependent Role="TaskInstances">
+              <PropertyRef Name="TaskTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="MainMenu" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+        <EntityContainer Name="MainMenuContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Participants" EntityType="MainMenu.Participant" />
+          <EntitySet Name="ParticipantExternalStudyAssociatives" EntityType="MainMenu.ParticipantExternalStudyAssociative" />
+          <EntitySet Name="ExternalStudies" EntityType="MainMenu.ExternalStudy" />
+          <EntitySet Name="TaskInstances" EntityType="MainMenu.TaskInstance" />
+          <EntitySet Name="Assesors" EntityType="MainMenu.Assesor" />
+          <EntitySet Name="Studies" EntityType="MainMenu.Study" />
+          <EntitySet Name="Sites" EntityType="MainMenu.Site" />
+          <EntitySet Name="TaskTypes" EntityType="MainMenu.TaskType" />
+          <EntitySet Name="TaskDatas" EntityType="MainMenu.TaskData" />
+          <AssociationSet Name="ParticipantParticipantExternalStudyAssociative" Association="MainMenu.ParticipantParticipantExternalStudyAssociative">
+            <End Role="Participant" EntitySet="Participants" />
+            <End Role="ParticipantExternalStudyAssociative" EntitySet="ParticipantExternalStudyAssociatives" />
+          </AssociationSet>
+          <AssociationSet Name="AssesorParticipant" Association="MainMenu.AssesorParticipant">
+            <End Role="Assesor" EntitySet="Assesors" />
+            <End Role="Participant" EntitySet="Participants" />
+          </AssociationSet>
+          <AssociationSet Name="AssesorStudy" Association="MainMenu.AssesorStudy">
+            <End Role="Assesor" EntitySet="Assesors" />
+            <End Role="Study" EntitySet="Studies" />
+          </AssociationSet>
+          <AssociationSet Name="ParticipantTaskInstance" Association="MainMenu.ParticipantTaskInstance">
+            <End Role="Participant" EntitySet="Participants" />
+            <End Role="TaskInstance" EntitySet="TaskInstances" />
+          </AssociationSet>
+          <AssociationSet Name="ExternalStudyParticipantExternalStudyAssociative" Association="MainMenu.ExternalStudyParticipantExternalStudyAssociative">
+            <End Role="ExternalStudy" EntitySet="ExternalStudies" />
+            <End Role="ParticipantExternalStudyAssociative" EntitySet="ParticipantExternalStudyAssociatives" />
+          </AssociationSet>
+          <AssociationSet Name="StudyTaskInstance" Association="MainMenu.StudyTaskInstance">
+            <End Role="Study" EntitySet="Studies" />
+            <End Role="TaskInstance" EntitySet="TaskInstances" />
+          </AssociationSet>
+          <AssociationSet Name="SiteStudy" Association="MainMenu.SiteStudy">
+            <End Role="Site" EntitySet="Sites" />
+            <End Role="Study" EntitySet="Studies" />
+          </AssociationSet>
+          <AssociationSet Name="TaskTypeTaskInstance" Association="MainMenu.TaskTypeTaskInstance">
+            <End Role="TaskType" EntitySet="TaskTypes" />
+            <End Role="TaskInstance" EntitySet="TaskInstances" />
+          </AssociationSet>
+          <AssociationSet Name="TaskInstanceTaskData" Association="MainMenu.TaskInstanceTaskData">
+            <End Role="TaskInstance" EntitySet="TaskInstances" />
+            <End Role="TaskData" EntitySet="TaskDatas" />
+          </AssociationSet>
+          <AssociationSet Name="StudyParticipant" Association="MainMenu.StudyParticipant">
+            <End Role="Study" EntitySet="Studies" />
+            <End Role="Participant" EntitySet="Participants" />
+          </AssociationSet>
+          <AssociationSet Name="SiteParticipant" Association="MainMenu.SiteParticipant">
+            <End Role="Site" EntitySet="Sites" />
+            <End Role="Participant" EntitySet="Participants" />
+          </AssociationSet>
+          <AssociationSet Name="SiteTaskData" Association="MainMenu.SiteTaskData">
+            <End Role="Site" EntitySet="Sites" />
+            <End Role="TaskData" EntitySet="TaskDatas" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Participant">
+          <Key>
+            <PropertyRef Name="ParticipantId" />
+          </Key>
+          <Property Type="Int32" Name="ParticipantId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int16" Name="Age" Nullable="false" />
+          <Property Type="String" Name="Gender" Nullable="false" />
+          <Property Type="DateTime" Name="EffectiveDate" Nullable="false" />
+          <NavigationProperty Name="ParticipantExternalStudyAssociatives" Relationship="MainMenu.ParticipantParticipantExternalStudyAssociative" FromRole="Participant" ToRole="ParticipantExternalStudyAssociative" />
+          <NavigationProperty Name="Assesor" Relationship="MainMenu.AssesorParticipant" FromRole="Participant" ToRole="Assesor" />
+          <Property Type="Int32" Name="AssesorId" Nullable="false" />
+          <NavigationProperty Name="TaskInstances" Relationship="MainMenu.ParticipantTaskInstance" FromRole="Participant" ToRole="TaskInstance" />
+          <NavigationProperty Name="Study" Relationship="MainMenu.StudyParticipant" FromRole="Participant" ToRole="Study" />
+          <Property Type="Int32" Name="StudyId" Nullable="false" />
+          <NavigationProperty Name="Site" Relationship="MainMenu.SiteParticipant" FromRole="Participant" ToRole="Site" />
+          <Property Type="Int32" Name="SiteId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ParticipantExternalStudyAssociative">
+          <Key>
+            <PropertyRef Name="PartExtStudyAssId" />
+          </Key>
+          <Property Type="Int32" Name="PartExtStudyAssId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ExtStudyParticipantId" Nullable="false" />
+          <NavigationProperty Name="Participant" Relationship="MainMenu.ParticipantParticipantExternalStudyAssociative" FromRole="ParticipantExternalStudyAssociative" ToRole="Participant" />
+          <Property Type="Int32" Name="ParticipantId" Nullable="false" />
+          <NavigationProperty Name="ExternalStudy" Relationship="MainMenu.ExternalStudyParticipantExternalStudyAssociative" FromRole="ParticipantExternalStudyAssociative" ToRole="ExternalStudy" />
+          <Property Type="Int32" Name="ExternalStudyId" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ExternalStudy">
+          <Key>
+            <PropertyRef Name="ExternalStudyId" />
+          </Key>
+          <Property Type="Int32" Name="ExternalStudyId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="ExternalStudyDesc" Nullable="false" />
+          <NavigationProperty Name="ParticipantExternalStudyAssociatives" Relationship="MainMenu.ExternalStudyParticipantExternalStudyAssociative" FromRole="ExternalStudy" ToRole="ParticipantExternalStudyAssociative" />
+        </EntityType>
+        <EntityType Name="TaskInstance">
+          <Key>
+            <PropertyRef Name="TaskInstanceId" />
+          </Key>
+          <Property Type="Int32" Name="TaskInstanceId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="TaskTitle" Nullable="false" />
+          <Property Type="String" Name="Status" Nullable="false" />
+          <Property Type="DateTime" Name="StartDate" Nullable="false" />
+          <NavigationProperty Name="Participant" Relationship="MainMenu.ParticipantTaskInstance" FromRole="TaskInstance" ToRole="Participant" />
+          <Property Type="Int32" Name="ParticipantId" Nullable="false" />
+          <NavigationProperty Name="Study" Relationship="MainMenu.StudyTaskInstance" FromRole="TaskInstance" ToRole="Study" />
+          <Property Type="Int32" Name="StudyId" Nullable="false" />
+          <NavigationProperty Name="TaskType" Relationship="MainMenu.TaskTypeTaskInstance" FromRole="TaskInstance" ToRole="TaskType" />
+          <Property Type="Int32" Name="TaskTypeId" Nullable="false" />
+          <NavigationProperty Name="TaskDatas" Relationship="MainMenu.TaskInstanceTaskData" FromRole="TaskInstance" ToRole="TaskData" />
+        </EntityType>
+        <EntityType Name="Assesor">
+          <Key>
+            <PropertyRef Name="AssesorId" />
+          </Key>
+          <Property Type="Int32" Name="AssesorId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="UserName" Nullable="false" />
+          <Property Type="String" Name="Password" Nullable="false" />
+          <Property Type="String" Name="AssesorName" Nullable="false" />
+          <Property Type="String" Name="AssesorTitle" Nullable="false" />
+          <NavigationProperty Name="Participants" Relationship="MainMenu.AssesorParticipant" FromRole="Assesor" ToRole="Participant" />
+          <NavigationProperty Name="Studies" Relationship="MainMenu.AssesorStudy" FromRole="Assesor" ToRole="Study" />
+          <Property Type="String" Name="AssessorEmail" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Type="Boolean" Name="IsActive" />
+          <Property Type="String" Name="EnteredBy" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Type="DateTime" Name="EnteredTime" />
+          <Property Type="String" Name="UpdatedBy" MaxLength="50" FixedLength="true" Unicode="true" />
+          <Property Type="DateTime" Name="UpdatedTime" />
+          <Property Type="DateTime" Name="DeactivatedTime" />
+          <Property Type="Boolean" Name="AdminPrivileges" />
+        </EntityType>
+        <EntityType Name="Study">
+          <Key>
+            <PropertyRef Name="StudyId" />
+          </Key>
+          <Property Type="Int32" Name="StudyId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="StudyTitle" Nullable="false" />
+          <Property Type="String" Name="Examiner" Nullable="false" />
+          <NavigationProperty Name="Assesor" Relationship="MainMenu.AssesorStudy" FromRole="Study" ToRole="Assesor" />
+          <Property Type="Int32" Name="AssesorId" Nullable="false" />
+          <NavigationProperty Name="TaskInstances" Relationship="MainMenu.StudyTaskInstance" FromRole="Study" ToRole="TaskInstance" />
+          <NavigationProperty Name="Site" Relationship="MainMenu.SiteStudy" FromRole="Study" ToRole="Site" />
+          <Property Type="Int32" Name="SiteId" Nullable="false" />
+          <NavigationProperty Name="Participants" Relationship="MainMenu.StudyParticipant" FromRole="Study" ToRole="Participant" />
+        </EntityType>
+        <EntityType Name="Site">
+          <Key>
+            <PropertyRef Name="SiteId" />
+          </Key>
+          <Property Type="Int32" Name="SiteId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="SiteTitle" Nullable="false" />
+          <NavigationProperty Name="Studies" Relationship="MainMenu.SiteStudy" FromRole="Site" ToRole="Study" />
+          <NavigationProperty Name="Participants" Relationship="MainMenu.SiteParticipant" FromRole="Site" ToRole="Participant" />
+          <NavigationProperty Name="TaskDatas" Relationship="MainMenu.SiteTaskData" FromRole="Site" ToRole="TaskData" />
+        </EntityType>
+        <EntityType Name="TaskType">
+          <Key>
+            <PropertyRef Name="TaskTypeId" />
+          </Key>
+          <Property Type="Int32" Name="TaskTypeId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="TaskTypeDesc" Nullable="false" />
+          <NavigationProperty Name="TaskInstances" Relationship="MainMenu.TaskTypeTaskInstance" FromRole="TaskType" ToRole="TaskInstance" />
+        </EntityType>
+        <EntityType Name="TaskData">
+          <Key>
+            <PropertyRef Name="TaskDataId" />
+          </Key>
+          <Property Type="Int32" Name="TaskDataId" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="Time" Nullable="false" />
+          <Property Type="String" Name="EventType" Nullable="false" />
+          <Property Type="String" Name="EventData" Nullable="false" />
+          <NavigationProperty Name="TaskInstance" Relationship="MainMenu.TaskInstanceTaskData" FromRole="TaskData" ToRole="TaskInstance" />
+          <Property Type="Int32" Name="TaskInstanceId" Nullable="false" />
+          <Property Type="String" Name="EventSummary" Nullable="true" />
+          <NavigationProperty Name="Site" Relationship="MainMenu.SiteTaskData" FromRole="TaskData" ToRole="Site" />
+          <Property Type="Int32" Name="SiteId" Nullable="false" />
+        </EntityType>
+        <Association Name="ParticipantParticipantExternalStudyAssociative">
+          <End Type="MainMenu.Participant" Role="Participant" Multiplicity="1" />
+          <End Type="MainMenu.ParticipantExternalStudyAssociative" Role="ParticipantExternalStudyAssociative" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="ParticipantId" />
+            </Principal>
+            <Dependent Role="ParticipantExternalStudyAssociative">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AssesorParticipant">
+          <End Type="MainMenu.Assesor" Role="Assesor" Multiplicity="1" />
+          <End Type="MainMenu.Participant" Role="Participant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Assesor">
+              <PropertyRef Name="AssesorId" />
+            </Principal>
+            <Dependent Role="Participant">
+              <PropertyRef Name="AssesorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="AssesorStudy">
+          <End Type="MainMenu.Assesor" Role="Assesor" Multiplicity="1" />
+          <End Type="MainMenu.Study" Role="Study" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Assesor">
+              <PropertyRef Name="AssesorId" />
+            </Principal>
+            <Dependent Role="Study">
+              <PropertyRef Name="AssesorId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ParticipantTaskInstance">
+          <End Type="MainMenu.Participant" Role="Participant" Multiplicity="1" />
+          <End Type="MainMenu.TaskInstance" Role="TaskInstance" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Participant">
+              <PropertyRef Name="ParticipantId" />
+            </Principal>
+            <Dependent Role="TaskInstance">
+              <PropertyRef Name="ParticipantId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="ExternalStudyParticipantExternalStudyAssociative">
+          <End Type="MainMenu.ExternalStudy" Role="ExternalStudy" Multiplicity="1" />
+          <End Type="MainMenu.ParticipantExternalStudyAssociative" Role="ParticipantExternalStudyAssociative" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ExternalStudy">
+              <PropertyRef Name="ExternalStudyId" />
+            </Principal>
+            <Dependent Role="ParticipantExternalStudyAssociative">
+              <PropertyRef Name="ExternalStudyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StudyTaskInstance">
+          <End Type="MainMenu.Study" Role="Study" Multiplicity="1" />
+          <End Type="MainMenu.TaskInstance" Role="TaskInstance" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Study">
+              <PropertyRef Name="StudyId" />
+            </Principal>
+            <Dependent Role="TaskInstance">
+              <PropertyRef Name="StudyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SiteStudy">
+          <End Type="MainMenu.Site" Role="Site" Multiplicity="1" />
+          <End Type="MainMenu.Study" Role="Study" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="SiteId" />
+            </Principal>
+            <Dependent Role="Study">
+              <PropertyRef Name="SiteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="TaskTypeTaskInstance">
+          <End Type="MainMenu.TaskType" Role="TaskType" Multiplicity="1" />
+          <End Type="MainMenu.TaskInstance" Role="TaskInstance" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaskType">
+              <PropertyRef Name="TaskTypeId" />
+            </Principal>
+            <Dependent Role="TaskInstance">
+              <PropertyRef Name="TaskTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="TaskInstanceTaskData">
+          <End Type="MainMenu.TaskInstance" Role="TaskInstance" Multiplicity="1" />
+          <End Type="MainMenu.TaskData" Role="TaskData" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TaskInstance">
+              <PropertyRef Name="TaskInstanceId" />
+            </Principal>
+            <Dependent Role="TaskData">
+              <PropertyRef Name="TaskInstanceId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="StudyParticipant">
+          <End Type="MainMenu.Study" Role="Study" Multiplicity="1" />
+          <End Type="MainMenu.Participant" Role="Participant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Study">
+              <PropertyRef Name="StudyId" />
+            </Principal>
+            <Dependent Role="Participant">
+              <PropertyRef Name="StudyId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SiteParticipant">
+          <End Type="MainMenu.Site" Role="Site" Multiplicity="1" />
+          <End Type="MainMenu.Participant" Role="Participant" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="SiteId" />
+            </Principal>
+            <Dependent Role="Participant">
+              <PropertyRef Name="SiteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SiteTaskData">
+          <End Type="MainMenu.Site" Role="Site" Multiplicity="1" />
+          <End Type="MainMenu.TaskData" Role="TaskData" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Site">
+              <PropertyRef Name="SiteId" />
+            </Principal>
+            <Dependent Role="TaskData">
+              <PropertyRef Name="SiteId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MainMenuStoreContainer" CdmEntityContainer="MainMenuContainer">
+    <EntitySetMapping Name="Participants">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.Participant)">
+        <MappingFragment StoreEntitySet="Participants">
+          <ScalarProperty Name="ParticipantId" ColumnName="ParticipantId" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="EffectiveDate" ColumnName="EffectiveDate" />
+          <ScalarProperty Name="AssesorId" ColumnName="AssesorId" />
+          <ScalarProperty Name="StudyId" ColumnName="StudyId" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParticipantExternalStudyAssociatives">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.ParticipantExternalStudyAssociative)">
+        <MappingFragment StoreEntitySet="ParticipantExternalStudyAssociatives">
+          <ScalarProperty Name="PartExtStudyAssId" ColumnName="PartExtStudyAssId" />
+          <ScalarProperty Name="ExtStudyParticipantId" ColumnName="ExtStudyParticipantId" />
+          <ScalarProperty Name="ParticipantId" ColumnName="ParticipantId" />
+          <ScalarProperty Name="ExternalStudyId" ColumnName="ExternalStudyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExternalStudies">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.ExternalStudy)">
+        <MappingFragment StoreEntitySet="ExternalStudies">
+          <ScalarProperty Name="ExternalStudyId" ColumnName="ExternalStudyId" />
+          <ScalarProperty Name="ExternalStudyDesc" ColumnName="ExternalStudyDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskInstances">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.TaskInstance)">
+        <MappingFragment StoreEntitySet="TaskInstances">
+          <ScalarProperty Name="TaskInstanceId" ColumnName="TaskInstanceId" />
+          <ScalarProperty Name="TaskTitle" ColumnName="TaskTitle" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="ParticipantId" ColumnName="ParticipantId" />
+          <ScalarProperty Name="StudyId" ColumnName="StudyId" />
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Assesors">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.Assesor)">
+        <MappingFragment StoreEntitySet="Assesors">
+          <ScalarProperty Name="AdminPrivileges" ColumnName="AdminPrivileges" />
+                <ScalarProperty Name="DeactivatedTime" ColumnName="DeactivatedTime" />
+                <ScalarProperty Name="UpdatedTime" ColumnName="UpdatedTime" />
+                <ScalarProperty Name="UpdatedBy" ColumnName="UpdatedBy" />
+                <ScalarProperty Name="EnteredTime" ColumnName="EnteredTime" />
+                <ScalarProperty Name="EnteredBy" ColumnName="EnteredBy" />
+                <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+                <ScalarProperty Name="AssessorEmail" ColumnName="AssessorEmail" />
+                <ScalarProperty Name="AssesorId" ColumnName="AssesorId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="AssesorName" ColumnName="AssesorName" />
+          <ScalarProperty Name="AssesorTitle" ColumnName="AssesorTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Studies">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.Study)">
+        <MappingFragment StoreEntitySet="Studies">
+          <ScalarProperty Name="StudyId" ColumnName="StudyId" />
+          <ScalarProperty Name="StudyTitle" ColumnName="StudyTitle" />
+          <ScalarProperty Name="Examiner" ColumnName="Examiner" />
+          <ScalarProperty Name="AssesorId" ColumnName="AssesorId" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sites">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.Site)">
+        <MappingFragment StoreEntitySet="Sites">
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+          <ScalarProperty Name="SiteTitle" ColumnName="SiteTitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskTypes">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.TaskType)">
+        <MappingFragment StoreEntitySet="TaskTypes">
+          <ScalarProperty Name="TaskTypeId" ColumnName="TaskTypeId" />
+          <ScalarProperty Name="TaskTypeDesc" ColumnName="TaskTypeDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaskDatas">
+      <EntityTypeMapping TypeName="IsTypeOf(MainMenu.TaskData)">
+        <MappingFragment StoreEntitySet="TaskDatas">
+          <ScalarProperty Name="TaskDataId" ColumnName="TaskDataId" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="EventData" ColumnName="EventData" />
+          <ScalarProperty Name="TaskInstanceId" ColumnName="TaskInstanceId" />
+          <ScalarProperty Name="EventSummary" ColumnName="EventSummary" />
+          <ScalarProperty Name="SiteId" ColumnName="SiteId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="MainMenu" >
+        <EntityTypeShape EntityType="MainMenu.Participant" Width="1.5" PointX="3.125" PointY="0.5" Height="3.3263964843749996" />
+        <EntityTypeShape EntityType="MainMenu.ParticipantExternalStudyAssociative" Width="1.5" PointX="5.375" PointY="1" Height="1.4033821614583331" />
+        <EntityTypeShape EntityType="MainMenu.ExternalStudy" Width="1.5" PointX="5.375" PointY="3.625" Height="1.5956835937499996" />
+        <EntityTypeShape EntityType="MainMenu.TaskInstance" Width="1.5" PointX="3.5" PointY="4.875" Height="3.1340950520833317" />
+        <EntityTypeShape EntityType="MainMenu.Assesor" Width="1.5" PointX="0.75" PointY="0.75" Height="2.3648893229166661" />
+        <EntityTypeShape EntityType="MainMenu.Study" Width="1.5" PointX="0.5" PointY="5.375" Height="2.7494921874999996" />
+        <EntityTypeShape EntityType="MainMenu.Site" Width="1.5" PointX="0.5" PointY="8.25" Height="1.9802864583333335" />
+        <EntityTypeShape EntityType="MainMenu.TaskType" Width="1.5" PointX="5.875" PointY="6.25" Height="1.5956835937499996" />
+        <EntityTypeShape EntityType="MainMenu.TaskData" Width="1.5" PointX="3.375" PointY="8.25" Height="2.7494921874999996" />
+        <AssociationConnector Association="MainMenu.ParticipantParticipantExternalStudyAssociative">
+          <ConnectorPoint PointX="4.625" PointY="2.0862939453125" />
+          <ConnectorPoint PointX="5.375" PointY="2.0862939453125" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.AssesorParticipant">
+          <ConnectorPoint PointX="2.25" PointY="1.9324446614583333" />
+          <ConnectorPoint PointX="3.125" PointY="1.9324446614583333" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.AssesorStudy">
+          <ConnectorPoint PointX="1.375" PointY="3.1148893229166661" />
+          <ConnectorPoint PointX="1.375" PointY="5.375" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.ParticipantTaskInstance">
+          <ConnectorPoint PointX="4.0625" PointY="3.8263964843749996" />
+          <ConnectorPoint PointX="4.0625" PointY="4.875" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.ExternalStudyParticipantExternalStudyAssociative">
+          <ConnectorPoint PointX="6.125" PointY="3.625" />
+          <ConnectorPoint PointX="6.125" PointY="3.172587890625" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.StudyTaskInstance">
+          <ConnectorPoint PointX="2" PointY="6.6920475260416659" />
+          <ConnectorPoint PointX="3.0416666666666665" PointY="6.692047526041665" />
+          <ConnectorPoint PointX="3.2083333333333335" PointY="6.6920475260416659" />
+          <ConnectorPoint PointX="3.5" PointY="6.6920475260416659" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.SiteStudy">
+          <ConnectorPoint PointX="1.25" PointY="8.25" />
+          <ConnectorPoint PointX="1.25" PointY="8.1244921875" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.TaskTypeTaskInstance">
+          <ConnectorPoint PointX="5.875" PointY="7.047841796875" />
+          <ConnectorPoint PointX="5" PointY="7.047841796875" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.TaskInstanceTaskData">
+          <ConnectorPoint PointX="4.1875" PointY="8.0090950520833317" />
+          <ConnectorPoint PointX="4.1875" PointY="8.25" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.StudyParticipant">
+          <ConnectorPoint PointX="0.59375" PointY="5.375" />
+          <ConnectorPoint PointX="0.59375" PointY="3.4706404036458331" />
+          <ConnectorPoint PointX="1.2916666666666667" PointY="3.4706404036458327" />
+          <ConnectorPoint PointX="1.4583333333333333" PointY="3.4706404036458331" />
+          <ConnectorPoint PointX="3.125" PointY="3.4706404036458331" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.SiteParticipant">
+          <ConnectorPoint PointX="2" PointY="8.2511528461538468" />
+          <ConnectorPoint PointX="3.125" PointY="8.2511528461538468" />
+          <ConnectorPoint PointX="3.125" PointY="3.8263964843749996" />
+        </AssociationConnector>
+        <AssociationConnector Association="MainMenu.SiteTaskData">
+          <ConnectorPoint PointX="2" PointY="9.27197215224359" />
+          <ConnectorPoint PointX="3.375" PointY="9.27197215224359" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

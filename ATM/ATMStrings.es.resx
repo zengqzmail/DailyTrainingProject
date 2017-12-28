@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PromptForMoreTime" xml:space="preserve">
+    <value>¿Necesita más tiempo para completar esta tarea?</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ExitAtmTaskMessage" xml:space="preserve">
+    <value>Gracias! 
+
+
+Presione Salir para cerrar la tarea ATM</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="NextTaskPrompt" xml:space="preserve">
+    <value>Gracias! 
+
+
+Pulse el botón Continuar para pasar a la siguiente tarea</value>
+  </data>
+  <data name="NumPadClear" xml:space="preserve">
+    <value>BORRAR</value>
+  </data>
+  <data name="NumPadEnter" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Task1_Instructions" xml:space="preserve">
+    <value>Por favor, use el cajero automático para verificar el saldo de su cuenta de cheques. El PIN de cuenta es 1234.</value>
+    <comment>not used</comment>
+  </data>
+  <data name="Task2_Instructions" xml:space="preserve">
+    <value>Por favor, use el cajero automático para transferir 50 dólares de su cuenta de ahorros a su cuenta de cheques. El PIN de cuenta es 1234.</value>
+    <comment>not used</comment>
+  </data>
+  <data name="Task3_Instructions" xml:space="preserve">
+    <value>Por favor, use el cajero automático para retirar 100 dólares de su cuenta de cheques. El PIN de cuenta es 1234.</value>
+    <comment>not used</comment>
+  </data>
+  <data name="InvalidPIN" xml:space="preserve">
+    <value>Su entrada no es válida. 
+Por favor el número PIN vuelva a escribir.</value>
+  </data>
+  <data name="CheckBalanceReminder" xml:space="preserve">
+    <value>Su tarea es verificar el saldo de su cuenta de cheques</value>
+  </data>
+  <data name="Transfer50DollarsReminder" xml:space="preserve">
+    <value>Su tarea consiste en transferir 50 dólares de su cuenta de ahorros a su cuenta de cheques</value>
+  </data>
+  <data name="WithdrawCashReminder" xml:space="preserve">
+    <value>Su tarea consiste en retirar 100 dólares de su cuenta de cheques</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Aviso!</value>
+  </data>
+  <data name="EndSubtaskEarlyMessage" xml:space="preserve">
+    <value>¿De verdad quieres salir de este sub-tarea?</value>
+  </data>
+  <data name="YourCheckingAcctID" xml:space="preserve">
+    <value>Su cuenta de cheques ID: </value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Disponible: $</value>
+  </data>
+  <data name="YourSavingsAcctID" xml:space="preserve">
+    <value>Su cuenta de ahorro ID: </value>
+  </data>
+  <data name="YouHaveDeposited" xml:space="preserve">
+    <value>Usted ha depositado $</value>
+  </data>
+  <data name="InYourCheckingAcctTwice" xml:space="preserve">
+    <value>en su cuenta de ahorro 
+En su cuenta de cheques, $</value>
+  </data>
+  <data name="IsAvailable" xml:space="preserve">
+    <value>es disponible</value>
+  </data>
+  <data name="CheckingAcct" xml:space="preserve">
+    <value>Cuenta de Cheques: $</value>
+  </data>
+  <data name="CheckingAsterisk" xml:space="preserve">
+    <value>Cheques: *</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="InYourCheckingAcct" xml:space="preserve">
+    <value> en tu cuenta de cheques.</value>
+  </data>
+  <data name="InYourSavingsAcct" xml:space="preserve">
+    <value> en tu cuenta de ahorros</value>
+  </data>
+  <data name="InYourSavingsAcctTwice" xml:space="preserve">
+    <value>en su cuenta de ahorro 
+En su cuenta de ahorro, $</value>
+  </data>
+  <data name="MustSelectLanguage" xml:space="preserve">
+    <value>Primero debe seleccionar el idioma antes de poder continuar.</value>
+  </data>
+  <data name="NowCheckingAcctHas" xml:space="preserve">
+    <value>Ahora, su cuenta de cheques tiene $</value>
+  </data>
+  <data name="PinTriesRemaining" xml:space="preserve">
+    <value>intento(s) queda(n).</value>
+  </data>
+  <data name="PleaseEnterAmtRequired100" xml:space="preserve">
+    <value>Por favor ingrese la cantidad requerida por subtarea! ($ 100)</value>
+  </data>
+  <data name="PleaseEnterAmtRequired50" xml:space="preserve">
+    <value>Por favor ingrese la cantidad requerida por subtarea! ($50)</value>
+  </data>
+  <data name="PleaseRetypeAmounts10and20" xml:space="preserve">
+    <value>Por favor, vuelva a escribir la cantidad. Yo sólo apoyo billetes de $10 y $20.</value>
+  </data>
+  <data name="PleaseRetypeAmtChecking" xml:space="preserve">
+    <value>Por favor, vuelva a escribir la cantidad. Su cuenta de cheques tiene </value>
+  </data>
+  <data name="PleaseRetypeAmtSavings" xml:space="preserve">
+    <value>Por favor, vuelva a escribir la cantidad. Su cuenta de ahorros tiene</value>
+  </data>
+  <data name="PleaseRetypeTransferAmt" xml:space="preserve">
+    <value>Por favor, vuelva a escribir la cantidad que desea transferir. 
+La cantidad disponible en su cuenta de cheques es</value>
+  </data>
+  <data name="PleaseTakeBills" xml:space="preserve">
+    <value>Por favor, tome los billetes.</value>
+  </data>
+  <data name="PleaseTypeInCashAmt" xml:space="preserve">
+    <value>Por favor, introduzca la cantidad de dinero que desea retirar</value>
+  </data>
+  <data name="PleaseTypeTransferAmt" xml:space="preserve">
+    <value>Por favor, escribe la cantidad que desea transferir.</value>
+  </data>
+  <data name="SavingsAcct" xml:space="preserve">
+    <value>Cuenta de Ahorros: $</value>
+  </data>
+  <data name="SavingsAsterisk" xml:space="preserve">
+    <value>Ahorros: *</value>
+  </data>
+  <data name="TakeBackYourChecks" xml:space="preserve">
+    <value>Por favor retirar sus cheques.</value>
+  </data>
+  <data name="TheAvailableAmtInCheckingIs" xml:space="preserve">
+    <value>La cantidad disponible en su cuenta de cheques es</value>
+  </data>
+  <data name="TheAvailableAmtInSavingsIs" xml:space="preserve">
+    <value>La cantidad disponible en su cuenta de ahorros es</value>
+  </data>
+  <data name="TransactionDoneSuccessfully" xml:space="preserve">
+    <value>La transacción ha sido realizada con éxito. </value>
+  </data>
+  <data name="YourSavingsAcctHas" xml:space="preserve">
+    <value>Su cuenta de ahorros tiene $</value>
+  </data>
+  <data name="AcctInformation" xml:space="preserve">
+    <value>INFORMACION DE CUENTA</value>
+  </data>
+  <data name="DepositButton" xml:space="preserve">
+    <value>DEPOSITO</value>
+  </data>
+  <data name="ExitTaskButton" xml:space="preserve">
+    <value>Salir de Tarea</value>
+  </data>
+  <data name="PleaseSelectLanguage" xml:space="preserve">
+    <value>Por favor seleccione un idioma</value>
+  </data>
+  <data name="PreferenceButton" xml:space="preserve">
+    <value>PREFERENCIAS</value>
+  </data>
+  <data name="TransferOrPayment" xml:space="preserve">
+    <value>TRANSFERIR O PAGAR</value>
+  </data>
+  <data name="CheckingToSavings" xml:space="preserve">
+    <value>Cheques -&gt; Ahorros</value>
+  </data>
+  <data name="HowMuchCashToWithdraw" xml:space="preserve">
+    <value>¿Cuánto dinero le gustaría?</value>
+  </data>
+  <data name="OnlyHave10and20" xml:space="preserve">
+    <value>Sólo tengo billetes de $10 y $20.</value>
+  </data>
+  <data name="PleaseEnterPIN" xml:space="preserve">
+    <value>Por favor dígame su número de identificación personal
+usando el teclado.
+A continuación, presione OK.</value>
+  </data>
+  <data name="PleaseMakeSelection" xml:space="preserve">
+    <value>¿Qué desea hacer?
+
+Por favor seleccione una de las opciones 
+en la parte inferior de la pantalla.</value>
+  </data>
+  <data name="SavingsToChecking" xml:space="preserve">
+    <value>Ahorros -&gt; Cheques</value>
+  </data>
+  <data name="SeeAcctDetails" xml:space="preserve">
+    <value>Detalles de cuentas</value>
+  </data>
+  <data name="SeeSummaryAccts" xml:space="preserve">
+    <value>Sumario de cuentas</value>
+  </data>
+  <data name="TransferBetweenMyAccts" xml:space="preserve">
+    <value>Transferir entre mis cuentas</value>
+  </data>
+  <data name="TransferToOtherAcct" xml:space="preserve">
+    <value>Transferencia a otras cuentas</value>
+  </data>
+  <data name="WhatWouldYouLikeToDo" xml:space="preserve">
+    <value>¿Qué desea hacer?</value>
+  </data>
+  <data name="WhereToTransferFrom" xml:space="preserve">
+    <value>¿Desde dónde le gustaría transferir?</value>
+  </data>
+  <data name="WhereToWithdrawMoney" xml:space="preserve">
+    <value>¿Dónde voy a conseguir el dinero?</value>
+  </data>
+  <data name="Cash" xml:space="preserve">
+    <value>EFECTIVO</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ConfirmCancelSubtaskMessage" xml:space="preserve">
+    <value>Seleccione OK para volver a la pantalla de selección de idioma. Seleccione NO para quedarse donde está.</value>
+  </data>
+</root>

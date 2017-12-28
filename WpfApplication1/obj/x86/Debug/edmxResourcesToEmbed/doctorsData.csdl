@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="doctorsData" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="doctorsDataContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="newParticipants" EntityType="doctorsData.newParticipant" />
+    <EntitySet Name="TaskDatas" EntityType="doctorsData.TaskData" />
+  </EntityContainer>
+  <EntityType Name="newParticipant">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="String" Name="ParticipantID" Nullable="false" />
+    <Property Type="Int32" Name="Age" Nullable="false" />
+    <Property Type="String" Name="Gender" Nullable="false" />
+    <Property Type="Int32" Name="Timepoint" Nullable="false" />
+    <Property Type="DateTime" Name="Timestamp" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaskData">
+    <Key>
+      <PropertyRef Name="TaskDataId" />
+    </Key>
+    <Property Type="Int32" Name="TaskDataId" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="DateTime" Name="Time" Nullable="false" />
+    <Property Type="String" Name="EventType" Nullable="false" />
+    <Property Type="String" Name="EventData" Nullable="false" />
+    <Property Type="String" Name="TaskName" Nullable="false" />
+    <Property Type="String" Name="EventSummary" Nullable="true" />
+    <Property Type="String" Name="SubjectID" Nullable="false" />
+  </EntityType>
+</Schema>

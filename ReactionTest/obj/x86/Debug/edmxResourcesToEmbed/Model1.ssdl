@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainerreac">
+    <EntitySet Name="SimpleReactions" EntityType="Model1.Store.SimpleReactions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ComplexReactions" EntityType="Model1.Store.ComplexReactions" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="SimpleReactions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" Nullable="false" />
+    <Property Name="Delay" Type="int" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" Nullable="false" />
+    <Property Name="Height" Type="int" Nullable="false" />
+    <Property Name="Width" Type="int" Nullable="false" />
+    <Property Name="Touch" Type="nvarchar" Nullable="false" />
+    <Property Name="Key" Type="nvarchar" Nullable="false" />
+    <Property Name="Life" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ComplexReactions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Color" Type="nvarchar" Nullable="false" />
+    <Property Name="Delay" Type="int" Nullable="false" />
+    <Property Name="Location" Type="nvarchar" Nullable="false" />
+    <Property Name="Height" Type="int" Nullable="false" />
+    <Property Name="Width" Type="int" Nullable="false" />
+    <Property Name="Touch" Type="nvarchar" Nullable="false" />
+    <Property Name="Key" Type="nvarchar" Nullable="false" />
+    <Property Name="Life" Type="int" Nullable="false" />
+  </EntityType>
+</Schema>

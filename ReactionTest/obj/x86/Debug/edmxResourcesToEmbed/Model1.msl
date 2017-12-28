@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainerreac" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="SimpleReactions">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.SimpleReaction)">
+        <MappingFragment StoreEntitySet="SimpleReactions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Delay" ColumnName="Delay" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Touch" ColumnName="Touch" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Life" ColumnName="Life" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComplexReactions">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.ComplexReaction)">
+        <MappingFragment StoreEntitySet="ComplexReactions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Delay" ColumnName="Delay" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Width" ColumnName="Width" />
+          <ScalarProperty Name="Touch" ColumnName="Touch" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Life" ColumnName="Life" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

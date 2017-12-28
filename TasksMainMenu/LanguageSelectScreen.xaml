@@ -1,0 +1,33 @@
+﻿<UserControl 
+             x:Class="TasksMainMenu.LanguageSelectScreen"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="800">
+    <Grid Height="Auto" Name="languageSelectGrid" Width="Auto" UseLayoutRounding="True" Focusable="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="117*" />
+            <RowDefinition Height="10*" />
+            <RowDefinition Height="28*" />
+            <RowDefinition Height="16*" />
+            <RowDefinition Height="130*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="122*" />
+            <ColumnDefinition Width="268*" />
+            <ColumnDefinition Width="51*" />
+            <ColumnDefinition Width="103*" />
+            <ColumnDefinition Width="96*" />
+            <ColumnDefinition Width="48*" />
+            <ColumnDefinition Width="12*" />
+            <ColumnDefinition Width="7*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Height="Auto" HorizontalAlignment="Stretch" Margin="26,12,0,0" Name="textBlock1" Text="  When you are ready to begin, please select English or Spanish by pressing the appropriate button below. &#x0a; &#x0a;   Cuando esté listo para comenzar, por favor seleccione Ingles o Español oprimiendo el botón apropiado." VerticalAlignment="Top" Grid.ColumnSpan="7" TextWrapping="WrapWithOverflow" FontSize="32" Grid.Column="1" Grid.RowSpan="6" />
+        <Button Content="English" Height="156" HorizontalAlignment="Left" Name="englishSelectBtn" VerticalAlignment="Bottom" Width="337" Grid.ColumnSpan="3" Grid.RowSpan="5" FontSize="40" Grid.Column="2" Margin="44,0,0,83" Click="selectEnglish" />
+        <Button Content="Español" Grid.Column="2" Height="156" HorizontalAlignment="Right" Name="spanishSelectBtn" VerticalAlignment="Bottom" Width="337" Grid.ColumnSpan="4" FontSize="40" Margin="0,0,81,83" Grid.RowSpan="5" Padding="1" Click="selectSpanish" />
+    </Grid>
+</UserControl>

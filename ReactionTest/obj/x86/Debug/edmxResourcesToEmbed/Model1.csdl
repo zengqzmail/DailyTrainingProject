@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="SimpleReactions" EntityType="Model1.SimpleReaction" />
+    <EntitySet Name="ComplexReactions" EntityType="Model1.ComplexReaction" />
+  </EntityContainer>
+  <EntityType Name="SimpleReaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="String" Name="Color" Nullable="false" />
+    <Property Type="Int32" Name="Delay" Nullable="false" />
+    <Property Type="String" Name="Location" Nullable="false" />
+    <Property Type="Int32" Name="Height" Nullable="false" />
+    <Property Type="Int32" Name="Width" Nullable="false" />
+    <Property Type="String" Name="Touch" Nullable="false" />
+    <Property Type="String" Name="Key" Nullable="false" />
+    <Property Type="Int32" Name="Life" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ComplexReaction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Type="String" Name="Color" Nullable="false" />
+    <Property Type="Int32" Name="Delay" Nullable="false" />
+    <Property Type="String" Name="Location" Nullable="false" />
+    <Property Type="Int32" Name="Height" Nullable="false" />
+    <Property Type="Int32" Name="Width" Nullable="false" />
+    <Property Type="String" Name="Touch" Nullable="false" />
+    <Property Type="String" Name="Key" Nullable="false" />
+    <Property Type="Int32" Name="Life" Nullable="false" />
+  </EntityType>
+</Schema>

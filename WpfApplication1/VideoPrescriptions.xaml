@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="WpfApplication1.VideoPrescriptions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="826" d:DesignWidth="617" Loaded="UserControl_Loaded">
+    <Grid Height="Auto" Width="Auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="84*" />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="76*" />
+            <ColumnDefinition Width="4*" />
+            <ColumnDefinition Width="77*" />
+            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="82*" />
+            <ColumnDefinition Width="8*" />
+            <ColumnDefinition Width="76*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="258*" />
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="160*" />
+        </Grid.RowDefinitions>
+        <Grid Height="Auto" HorizontalAlignment="Left" Margin="0,12,0,0" Name="grid1" VerticalAlignment="Top" Width="Auto" />
+        <MediaElement HorizontalAlignment="Center" Name="mediaElement1" Width="Auto"  MediaEnded="mediaElement1_MediaEnded" MediaOpened="mediaOpened1" Grid.ColumnSpan="9" />
+        <Image Height="Auto" HorizontalAlignment="Center" Name="image1" Stretch="UniformToFill" VerticalAlignment="Center" Width="Auto" Grid.Row="2"  Visibility="Hidden" />
+        <Image Height="Auto" HorizontalAlignment="Center" Name="image2" Stretch="UniformToFill" VerticalAlignment="Center" Width="Auto" Grid.Row="2"  Visibility="Hidden" Grid.Column="2" />
+        <Image Height="Auto" HorizontalAlignment="Center" Name="image3" Stretch="UniformToFill" VerticalAlignment="Center" Width="Auto" Grid.Row="2" Grid.Column="4"  Visibility="Hidden" />
+        <Image Height="Auto" HorizontalAlignment="Center" Name="image4" Stretch="UniformToFill" VerticalAlignment="Center" Width="Auto" Grid.Column="6" Grid.Row="2"  Visibility="Hidden" />
+        <Image Height="Auto" HorizontalAlignment="Center" Name="image5" Stretch="UniformToFill" VerticalAlignment="Center" Width="Auto" Grid.Column="8" Grid.Row="2"  Visibility="Hidden" StretchDirection="Both" />
+        <MediaElement Grid.ColumnSpan="9" Height="Auto" HorizontalAlignment="Center" Name="mediaElement2" VerticalAlignment="Center" Width="Auto" Visibility="Visible" MediaEnded="mediaElement2_MediaEnded"  />
+        <MediaElement Grid.ColumnSpan="9" Height="Auto" HorizontalAlignment="Center" Name="mediaElement3" VerticalAlignment="Center" Width="Auto" IsHitTestVisible="True" MediaEnded="mediaElement3_MediaEnded" MediaOpened ="mediaStart3" LoadedBehavior="Manual" Visibility="Visible" />
+        <Button Grid.Column="1"  Grid.ColumnSpan="4" Height="Auto" HorizontalAlignment="Stretch" Name="replayBtn" VerticalAlignment="Bottom" Width="Auto" Visibility="Hidden" FontSize="48" Click="replayBtn_Click" Margin="0,0,0,10" >
+           
+        </Button>
+        <Button Grid.Column="6" Height="Auto" HorizontalAlignment="Right" Margin="0,0,0,10" Name="continueBtn" VerticalAlignment="Bottom" Width="Auto" VerticalContentAlignment="Center" HorizontalContentAlignment="Stretch" FontSize="48" Click="continueBtn_Click" Visibility="Hidden" Background="Lime" AllowDrop="True" />
+    </Grid>
+</UserControl>

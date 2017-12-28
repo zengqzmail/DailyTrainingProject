@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TasksMainMenu</name>
+    </assembly>
+    <members>
+        <member name="T:TasksMainMenu.LanguageSelectScreen">
+            <summary>
+            Interaction logic for LanguageSelectScreen.xaml
+            </summary>
+            <summary>
+            LanguageSelectScreen
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.LanguageSelectScreen.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.tasksDataContainer">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.tasksDataContainer.#ctor">
+            <summary>
+            Initializes a new tasksDataContainer object using the connection string found in the 'tasksDataContainer' section of the application configuration file.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.tasksDataContainer.#ctor(System.String)">
+            <summary>
+            Initialize a new tasksDataContainer object.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.tasksDataContainer.#ctor(System.Data.EntityClient.EntityConnection)">
+            <summary>
+            Initialize a new tasksDataContainer object.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.tasksDataContainer.newParticipants">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.tasksDataContainer.TaskDatas">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.tasksDataContainer.AddTonewParticipants(TasksMainMenu.newParticipant)">
+            <summary>
+            Deprecated Method for adding a new object to the newParticipants EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.tasksDataContainer.AddToTaskDatas(TasksMainMenu.TaskData)">
+            <summary>
+            Deprecated Method for adding a new object to the TaskDatas EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.newParticipant">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.newParticipant.CreatenewParticipant(System.Int32,System.String,System.Int32,System.String,System.Int32,System.DateTime)">
+            <summary>
+            Create a new newParticipant object.
+            </summary>
+            <param name="id">Initial value of the Id property.</param>
+            <param name="participantID">Initial value of the ParticipantID property.</param>
+            <param name="age">Initial value of the Age property.</param>
+            <param name="gender">Initial value of the Gender property.</param>
+            <param name="timepoint">Initial value of the Timepoint property.</param>
+            <param name="timestamp">Initial value of the Timestamp property.</param>
+        </member>
+        <member name="P:TasksMainMenu.newParticipant.Id">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.newParticipant.ParticipantID">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.newParticipant.Age">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.newParticipant.Gender">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.newParticipant.Timepoint">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.newParticipant.Timestamp">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.TaskData">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.TaskData.CreateTaskData(System.Int32,System.DateTime,System.String,System.String,System.String,System.String)">
+            <summary>
+            Create a new TaskData object.
+            </summary>
+            <param name="taskDataId">Initial value of the TaskDataId property.</param>
+            <param name="time">Initial value of the Time property.</param>
+            <param name="eventType">Initial value of the EventType property.</param>
+            <param name="eventData">Initial value of the EventData property.</param>
+            <param name="taskName">Initial value of the TaskName property.</param>
+            <param name="subjectID">Initial value of the SubjectID property.</param>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.TaskDataId">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.Time">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.EventType">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.EventData">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.TaskName">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.EventSummary">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.TaskData.SubjectID">
+            <summary>
+            No Metadata Documentation available.
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.TaskSelectMenu">
+            <summary>
+            Interaction logic for TaskSelectMenu.xaml
+            </summary>
+            
+            <summary>
+            TaskSelectMenu
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.TaskSelectMenu.taskClosingHandler(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+            Not working
+            
+        </member>
+        <member name="M:TasksMainMenu.TaskSelectMenu.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.PopUp">
+            <summary>
+            PopUp
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.PopUp.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.MainWindow">
+            <summary>
+            Interaction logic for MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:TasksMainMenu.MainWindow.SummarizeDoc(System.Linq.IQueryable{TasksMainMenu.TaskData},System.Text.StringBuilder)">
+            <summary>
+            used to summarize one instance of Doctor's Visit task
+            </summary>
+            <param name="taskData"></param>
+            <param name="CsvSb"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TasksMainMenu.MainWindow.expDoctor(System.Data.Objects.IObjectSet{TasksMainMenu.TaskData})">
+            <summary>
+            for exporting doctor needs to be added to drop down menu to call this methos when summarize doc selected
+            </summary>
+            <param name="task"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:TasksMainMenu.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:TasksMainMenu.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.Properties.Resources.FuctionalTasksManual_20130508">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.Properties.Resources.helpbutton">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:TasksMainMenu.Properties.Resources.SplashScreen2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,55 @@
+﻿<Window x:Class="TasksMainMenu.TaskSelectMenu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:TasksMainMenu;assembly=TasksMainMenu"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="Functional Task Selection Menu" Height="720" Width="1280" WindowState="Maximized" WindowStyle="None" Topmost="False" Loaded="Window_Loaded" Closing="WindowClosing">
+    <Grid ShowGridLines="False" Name="taskSelectGrid">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Resources/blankbackground.png" AlignmentX="Center" AlignmentY="Top" Stretch="Uniform"/>
+        </Grid.Background>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="121*" />
+            <RowDefinition Height="28*" />
+            <RowDefinition Height="132*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*" />
+            <ColumnDefinition Width="105*" />
+            <ColumnDefinition Width="136*" />
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="60*" />
+            <ColumnDefinition Width="72*" />
+            <ColumnDefinition Width="35*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Button.Click="taskBtn_Click"  Height="Auto" HorizontalAlignment="Right" Margin="0,12,0,0" Name="stackPanel1" VerticalAlignment="Top" Width="Auto" Orientation="Vertical" UseLayoutRounding="False" ForceCursor="True" Grid.Column="6">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Margin" Value="0,10,0,0"/>
+                </Style>
+            </StackPanel.Resources>
+            <!-- <Button Content="ATM" Height="Auto" Name="atmSelectBtn" Width="Auto" FontSize="48" />
+            <Button Content="Prescription Refill" Height="Auto" Name="prescriptionSelectBtn" Width="Auto" FontSize="48" />
+            <Button Content="Forms" Height="Auto" Name="formSelectBtn" Width="Auto" FontSize="48" />
+            <Button Content="Reaction Time" Height="Auto" Name="reactionSelectBtn" Width="Auto" FontSize="48" /> -->
+        </StackPanel>
+        <TextBlock Height="auto"  FontWeight="Bold" Name="instructionsTextBlk" Text="Select your task for participant # {0}, time-point {1} from the dropbox below and click &quot;Continue&quot;vbgfhgfhgfh" TextWrapping="Wrap" FontSize="60" ForceCursor="False" OverridesDefaultStyle="True" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" IsHitTestVisible="True" Grid.Column="1" Grid.ColumnSpan="5" />
+        <Button Content="Back to Main Menu" Height="71" HorizontalAlignment="Left" Margin="20,0,0,12" Name="backToMainMenuBtn" VerticalAlignment="Bottom" Width="Auto" Click="backToMainMenuBtn_Click" FontSize="48" Grid.Row="2" Grid.ColumnSpan="3" />
+
+        <ComboBox Name="comboBox1" FontSize="48" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" HorizontalContentAlignment="Center">
+            <!-- taken from: http://stackoverflow.com/questions/1321247/how-to-increase-scrollbar-width-in-wpf-scrollviewer-->
+            <ComboBox.Resources>
+                <sys:Double x:Key="{x:Static SystemParameters.VerticalScrollBarWidthKey}">100</sys:Double>
+            </ComboBox.Resources>
+            <ComboBoxItem Content="ATM" FontSize="42" />
+            <ComboBoxItem Content="DoctorTest" FontSize="42" />
+            <ComboBoxItem Content="Prescription Refill" FontSize="42" />
+            <ComboBoxItem Content="Forms" FontSize="42" />
+            <ComboBoxItem Content="Reaction Test" FontSize="42" />
+            <ComboBoxItem Content="MetroTickets" FontSize="42"/>
+            <ComboBoxItem Content="OnlineBanking" FontSize="42"/>
+        </ComboBox>
+        <Button Content="Continue" FontSize="48" Grid.ColumnSpan="3" Height="67" HorizontalAlignment="Right" Margin="0,0,20,12" Name="button1" VerticalAlignment="Bottom" Width="Auto" Grid.Column="4" Grid.Row="2" Click="button1_Click" />
+    </Grid>
+</Window>

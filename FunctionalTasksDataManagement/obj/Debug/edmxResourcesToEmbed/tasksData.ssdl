@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tasksData.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="tasksDataStoreContainer">
+    <EntitySet Name="newParticipants" EntityType="tasksData.Store.newParticipants" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="TaskDatas" EntityType="tasksData.Store.TaskDatas" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="newParticipants">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="ParticipantID" Type="nvarchar" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="Gender" Type="nvarchar" Nullable="false" />
+    <Property Name="Timepoint" Type="int" Nullable="false" />
+    <Property Name="Timestamp" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TaskDatas">
+    <Key>
+      <PropertyRef Name="TaskDataId" />
+    </Key>
+    <Property Name="TaskDataId" Type="int" Nullable="false" />
+    <Property Name="Time" Type="datetime" Nullable="false" />
+    <Property Name="EventType" Type="nvarchar" Nullable="false" />
+    <Property Name="EventData" Type="nvarchar" Nullable="false" />
+    <Property Name="TaskName" Type="nvarchar" Nullable="false" />
+    <Property Name="EventSummary" Type="nvarchar" Nullable="true" />
+    <Property Name="SubjectID" Type="nvarchar" Nullable="false" />
+  </EntityType>
+</Schema>
